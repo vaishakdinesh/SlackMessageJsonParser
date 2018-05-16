@@ -1,0 +1,230 @@
+[
+    {
+        "text": "<@U8SF2FJ0P> has posted an event to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1522081800^{date_short}|2018-03-26>, <!date^1522081800^{time}|12:30pm EST>-<!date^1522089000^{time}|2:30pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Curry 1st floor_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *1* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522070899.000470"
+    },
+    {
+        "text": ":wave: Here are the events in *`<#C8QRLFJ8H>`* for the next two weeks:",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageDigest|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1522081800^{date_short}|2018-03-26>, <!date^1522081800^{time}|12:30pm EST>-<!date^1522089000^{time}|2:30pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Curry 1st floor_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *1* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "text": "<https:\/\/medium.com\/eventbot\/now-with-a-fresh-clean-look-84abe74169a1?source=rss----c3b2e951ffd1---4|Eventbot blog: Now with a fresh clean look!>",
+                "id": 2,
+                "color": "0099ff",
+                "fallback": "<https:\/\/medium.com\/eventbot\/now-with-a-fresh-clean-look-84abe74169a1?source=rss----c3b2e951ffd1---4|Eventbot blog: Now with a fresh clean look!>"
+            },
+            {
+                "callback_id": "eventMessageDigest",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 3,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "5",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522072840.000892"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Some interesting topics covered here: <https:\/\/medium.com\/@vaidehijoshi> including stuff on graph theory which we are about to start on.",
+        "attachments": [
+            {
+                "title": "Vaidehi Joshi – Medium",
+                "title_link": "https:\/\/medium.com\/@vaidehijoshi",
+                "text": "Read writing from Vaidehi Joshi on Medium. Writing words, writing code. Sometimes doing both at once. Every day, Vaidehi Joshi and thousands of other voices read, write, and share important stories on Medium.",
+                "fallback": "Vaidehi Joshi – Medium",
+                "thumb_url": "https:\/\/cdn-images-1.medium.com\/max\/1200\/1*QOQuWAqQd566oITj9rtCKw.jpeg",
+                "from_url": "https:\/\/medium.com\/@vaidehijoshi",
+                "thumb_width": 720,
+                "thumb_height": 960,
+                "service_icon": "https:\/\/cdn-images-1.medium.com\/fit\/c\/304\/304\/1*8I-HPL0bfoIzGied-dzOvA.png",
+                "service_name": "medium.com",
+                "id": 1
+            }
+        ],
+        "ts": "1522074513.000328",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SSHL61M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": ":wave: Heads up, *TA Hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "38748012-2004-4228-9884-b1aafd1700f0",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522081637.000214"
+    }
+]

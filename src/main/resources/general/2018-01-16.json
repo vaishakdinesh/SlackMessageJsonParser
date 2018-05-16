@@ -1,0 +1,53 @@
+[
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "TA hours today 3:30-6:30pm, Library 2nd Floor high table near entrance",
+        "ts": "1516131210.000457"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "For assignment1, feel free to change the main program so that it will run all your experiments in one shot instead of 30 different runs. If you do so, please make sure you include that code too.",
+        "ts": "1516131509.000153"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Actually, I just updated the instructions for assignment 1 on blackboard to make things clearer.",
+        "ts": "1516131890.000358"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "If you are working on assignment 1 before the second lecture of the week (as I assume you are), you may find it helpful to peek ahead in the book to chapter 1.4 especially `Analysis of experimental data` which is on p176 in my edition.",
+        "ts": "1516142720.000452"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "The class repository is at: <https:\/\/github.com\/rchillyard\/INFO6205>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "rchillyard\/INFO6205",
+                "title_link": "https:\/\/github.com\/rchillyard\/INFO6205",
+                "text": "INFO6205 - This is the class repository for Program Structure and Algorithms",
+                "fallback": "GitHub: rchillyard\/INFO6205",
+                "from_url": "https:\/\/github.com\/rchillyard\/INFO6205",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/4192733?s=400&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1516163343.000142"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I don’t understand why some students are not able to find it. Can someone explain what they’re seeing when they use that URL?",
+        "ts": "1516163383.000011"
+    }
+]

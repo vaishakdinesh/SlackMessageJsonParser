@@ -1,0 +1,43 @@
+[
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "I will be having TA hours today 11:30am-2:30pm. I will update later with the location ",
+        "client_msg_id": "f7cd2556-c789-417b-888d-1fed3526170b",
+        "ts": "1517235434.000364"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> Copying earlier post (which I didn't send to channel): Gentle reminder: if you feel it necessary to email me (most communication should be through Slack), please include INFO6205-03 in the subject line.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1517235653.000000"
+        },
+        "ts": "1517235593.000481"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "hi TA <@U8SF2FJ0P> where is the location?",
+        "ts": "1517243124.000429"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "I'm on the first floor of Curry by the elevator. Here until 2:30",
+        "ts": "1517243429.001038"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "ok, thank you",
+        "ts": "1517244173.000544"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "I've had to relocate to CIE. Still here till 2:30 and happy to answer questions :grinning:",
+        "ts": "1517251961.000421"
+    }
+]

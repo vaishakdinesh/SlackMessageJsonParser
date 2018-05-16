@@ -1,0 +1,20 @@
+[
+    {
+        "type": "message",
+        "user": "U8SK3QRPG",
+        "text": "Hi Prof, will the mid term exam have multiple choice questions and code completion?",
+        "ts": "1519513248.000072"
+    },
+    {
+        "type": "message",
+        "user": "U8ST6RKP0",
+        "text": "also, will there be any conceptual questions that we need answer in sentences?",
+        "ts": "1519523281.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "There will be some pseudo-code exercises but mostly it will be concepts through multiple choice, matching, true\/false, etc.",
+        "ts": "1519524082.000076"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "Hi, what does it mean by \"Use the doubling method for choosing m and test for at least five values of m.\"",
+        "ts": "1517778677.000063"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "doubling method?",
+        "ts": "1517778716.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "We’ve talked about the doubling method. You used it for assignment 1. Look it up!",
+        "ts": "1517793482.000084"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Possible I meant _n_ instead of _m_. I will look it up tomorrow.",
+        "ts": "1517805296.000056"
+    }
+]

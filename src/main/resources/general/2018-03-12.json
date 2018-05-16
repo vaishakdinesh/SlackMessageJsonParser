@@ -1,0 +1,190 @@
+[
+    {
+        "text": ":wave: Here are the events in *`<#C8QRLFJ8H>`* for the next two weeks:",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageDigest",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1520870400^{date_short}|2018-03-12> :clock12: <!date^1520870400^{time}|12:00pm EST>-<!date^1520877600^{time}|2:00pm EST> :white_check_mark: 2 :x: 0",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Curry 1st floor",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":busts_in_silhouette: Invite",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "fallback": "<https:\/\/support.geteventbot.com\/hc\/en-us\/requests\/new|Have an Eventbot feature request? Send us your thoughts !>",
+                "text": "<https:\/\/support.geteventbot.com\/hc\/en-us\/requests\/new|Have an Eventbot feature request? Send us your thoughts !>",
+                "id": 2,
+                "color": "0099ff"
+            },
+            {
+                "callback_id": "eventMessageDigest",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 3,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "5",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "primary"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1520863235.000709"
+    },
+    {
+        "text": "<@U8SF2FJ0P> has updated the location for this event.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageEditBroadcast",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1520870400^{date_short}|2018-03-12> :clock12: <!date^1520870400^{time}|12:00pm EST>-<!date^1520877600^{time}|2:00pm EST> :white_check_mark: 3 :x: 0",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Curry 1st floor",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":busts_in_silhouette: Invite",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1520870274.000638"
+    },
+    {
+        "text": ":wave: Heads up, *TA Hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1520870337.000589"
+    }
+]

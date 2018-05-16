@@ -1,0 +1,25 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> Many students have asked if the exam will be open book. The answer is that it will be partly open book. In particular the part that is made up of non-coding questions. However, the coding questions will be on HackerRank and you will be in full-screen mode during this phase of the exam. So, you will be able to consult notes, or books, but you won’t be able to copy code from the internet.",
+        "ts": "1524107446.000105",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9091SUP2",
+                    "U8SSHL61M"
+                ],
+                "count": 2
+            },
+            {
+                "name": "conga_party_parrot",
+                "users": [
+                    "U8R5N05S4"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

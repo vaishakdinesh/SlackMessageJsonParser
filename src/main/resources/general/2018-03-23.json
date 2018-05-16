@@ -1,0 +1,119 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I updated the item GA Project on Blackboard (Course Material\/Course Documents\/Exams….) since yesterday. I added a bit more clarity since yesterday afternoon.",
+        "ts": "1521806630.000293"
+    },
+    {
+        "text": "<@U8QP67WJU> has posted an event to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast|C8QRLFJ8H",
+                "fallback": "TA hour",
+                "title": "TA hour",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1521829800^{date_short}|2018-03-23>, <!date^1521829800^{time}|2:30pm EST>-<!date^1521842400^{time}|6:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Library 2nd Floor_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *1* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "d086016b-3764-4cd5-bdd0-ff9aca0ac360",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "d086016b-3764-4cd5-bdd0-ff9aca0ac360",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "d086016b-3764-4cd5-bdd0-ff9aca0ac360",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "d086016b-3764-4cd5-bdd0-ff9aca0ac360",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521824883.000480"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have published the results for section 3, quiz 1. Thanks, <@U8SF2FJ0P>",
+        "ts": "1521825130.000016"
+    },
+    {
+        "text": ":wave: Heads up, *TA hour* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "d086016b-3764-4cd5-bdd0-ff9aca0ac360",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521829644.000244"
+    }
+]

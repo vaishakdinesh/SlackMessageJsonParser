@@ -1,0 +1,91 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I sense that teams haven’t progressed very far in their projects. I am considering cutting the second lecture this week to give you more time to work.",
+        "ts": "1523201144.000002"
+    },
+    {
+        "text": "<@U8SF2FJ0P> has posted an event to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1523289600^{date_short}|2018-04-09>, <!date^1523289600^{time}|12:00pm EST>-<!date^1523296800^{time}|2:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _TBD_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *4* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1523226374.000143"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Office hours tomorrow 11:30 to 5:30. Please request a time if you need to see me.",
+        "ts": "1523238186.000195"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> I know you’re all busy, but I’d like you to think about the following question before Tuesday: suppose we have a list of _n_ items chosen from _k_ classes. How many ways are there to sort that list? What does that tell us about the entropy of the unsorted list? Does that have any implications for sorting such lists?",
+        "ts": "1523243089.000138"
+    }
+]

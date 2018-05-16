@@ -1,0 +1,234 @@
+[
+    {
+        "text": "<@U8QP67WJU> has posted an event to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast|C8QRLFJ8H",
+                "fallback": "TA hours",
+                "title": "TA hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1522524600^{date_short}|2018-03-31>, <!date^1522524600^{time}|3:30pm EST>-<!date^1522533600^{time}|6:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Library 2nd Floor_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *1* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "6b495894-b547-4955-abb5-4f8d626ad0d4",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "6b495894-b547-4955-abb5-4f8d626ad0d4",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "6b495894-b547-4955-abb5-4f8d626ad0d4",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "6b495894-b547-4955-abb5-4f8d626ad0d4",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522523315.000003"
+    },
+    {
+        "text": ":wave: Heads up, *TA hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "6b495894-b547-4955-abb5-4f8d626ad0d4",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522524501.000071"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8QP67WJU> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8QP67WJU\/F9Z5K2UBV\/spring_2018_info6205_sec03_quiz_8_with_answers.pdf|Spring_2018_INFO6205_Sec03_Quiz_8_with_answers.pdf>",
+        "file": {
+            "id": "F9Z5K2UBV",
+            "created": 1522525512,
+            "timestamp": 1522525512,
+            "name": "Spring_2018_INFO6205_Sec03_Quiz_8_with_answers.pdf",
+            "title": "Spring_2018_INFO6205_Sec03_Quiz_8_with_answers.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U8QP67WJU",
+            "editable": false,
+            "size": 40725,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F9Z5K2UBV\/spring_2018_info6205_sec03_quiz_8_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F9Z5K2UBV\/download\/spring_2018_info6205_sec03_quiz_8_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F9Z5K2UBV-44858b0649\/spring_2018_info6205_sec03_quiz_8_with_answers_thumb_pdf.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf_w": 909,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8QP67WJU\/F9Z5K2UBV\/spring_2018_info6205_sec03_quiz_8_with_answers.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F9Z5K2UBV-8730ee30f3",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1
+        },
+        "user": "U8QP67WJU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "wen.xin1",
+        "bot_id": null,
+        "ts": "1522525513.000090"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8QP67WJU> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8QP67WJU\/FA03N6RB8\/_spring_2018_info6205_sec03_quiz_9_with_answers.pdf|_Spring_2018_INFO6205_Sec03_Quiz_9_with_answers.pdf>",
+        "file": {
+            "id": "FA03N6RB8",
+            "created": 1522525718,
+            "timestamp": 1522525718,
+            "name": "_Spring_2018_INFO6205_Sec03_Quiz_9_with_answers.pdf",
+            "title": "_Spring_2018_INFO6205_Sec03_Quiz_9_with_answers.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U8QP67WJU",
+            "editable": false,
+            "size": 40921,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-FA03N6RB8\/_spring_2018_info6205_sec03_quiz_9_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-FA03N6RB8\/download\/_spring_2018_info6205_sec03_quiz_9_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-FA03N6RB8-f9aa1aa73c\/_spring_2018_info6205_sec03_quiz_9_with_answers_thumb_pdf.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf_w": 909,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8QP67WJU\/FA03N6RB8\/_spring_2018_info6205_sec03_quiz_9_with_answers.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-FA03N6RB8-3b5119b5fe",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1
+        },
+        "user": "U8QP67WJU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "wen.xin1",
+        "bot_id": null,
+        "ts": "1522525719.000101"
+    },
+    {
+        "text": "Its mentioned in syllabus that best of 5 will be considered out of 10 quizzes. Here it is mentioned 6. So, now best of 6 will be considered or its still 5? :thinking_face:",
+        "unfurl_links": true,
+        "client_msg_id": "9865dcd6-df18-42f5-af21-d7df41845d84",
+        "unfurl_media": true,
+        "thread_ts": "1522432739.000312",
+        "is_thread_broadcast": true,
+        "channel_id": 296870528289,
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U8SSHL61M",
+        "root": {
+            "type": "message",
+            "user": "U8RFVCE7P",
+            "text": "<!channel> At the end of each remaining lecture before April 15th, there will be time for either a quiz or, if there is no quiz, time for working on the project. On Tuesday 3rd, we will have quiz #10. On the 7th, there will be an optional quiz (#11). If you already have six good quiz scores, you don't need to do #11 and can work on your project (but please do that outside so as not to disturb).",
+            "thread_ts": "1522432739.000312",
+            "reply_count": 1,
+            "replies": [
+                {
+                    "user": "U8SSHL61M",
+                    "ts": "1522548719.000008"
+                }
+            ],
+            "unread_count": 1,
+            "ts": "1522432739.000312"
+        },
+        "ts": "1522548719.000008"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Yes, we added an extra (optional) quiz to the schedule so the best 6 will be used.",
+        "ts": "1522550264.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "Ohk sir... Cool :slightly_smiling_face:",
+        "client_msg_id": "36190bf6-9961-4888-b200-c611d1c3e6af",
+        "ts": "1522552398.000029"
+    }
+]

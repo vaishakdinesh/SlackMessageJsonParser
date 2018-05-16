@@ -1,0 +1,36 @@
+[
+    {
+        "type": "message",
+        "user": "U8XSCKW8P",
+        "text": "@here Hi All, I looking for a Algorithm project teammate. If anyone is interested in working together on the project let me know! Thanks!",
+        "client_msg_id": "037a14ff-c004-4742-8396-d85d2dcbeab1",
+        "edited": {
+            "user": "U8XSCKW8P",
+            "ts": "1523025221.000000"
+        },
+        "thread_ts": "1523025189.000725",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8UM725V5",
+                "ts": "1523058868.000211"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523025189.000725"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "See comments under <#C8VCX7PFF|assignments> re: project",
+        "ts": "1523031996.000483"
+    },
+    {
+        "type": "message",
+        "user": "U8UM725V5",
+        "text": "I am! :point_up:",
+        "thread_ts": "1523025189.000725",
+        "parent_user_id": "U8XSCKW8P",
+        "ts": "1523058868.000211"
+    }
+]

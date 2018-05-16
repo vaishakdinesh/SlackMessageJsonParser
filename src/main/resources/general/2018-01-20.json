@@ -1,0 +1,178 @@
+[
+    {
+        "type": "message",
+        "user": "U8TN422A3",
+        "text": "I can't see the assignment channel.",
+        "thread_ts": "1516467287.000107",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U8SEA6LPR",
+                "ts": "1516467325.000061"
+            },
+            {
+                "user": "U8TN422A3",
+                "ts": "1516468015.000042"
+            },
+            {
+                "user": "U8TALS83G",
+                "ts": "1516484089.000043"
+            },
+            {
+                "user": "U8SEA6LPR",
+                "ts": "1516484440.000056"
+            },
+            {
+                "user": "U8TALS83G",
+                "ts": "1516484482.000060"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1516467287.000107"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "if you click the channel heading on your menu and search for it, you can find it.",
+        "thread_ts": "1516467287.000107",
+        "parent_user_id": "U8TN422A3",
+        "ts": "1516467325.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8TN422A3",
+        "text": "Thanks, found it :slightly_smiling_face:",
+        "thread_ts": "1516467287.000107",
+        "parent_user_id": "U8TN422A3",
+        "ts": "1516468015.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<!channel> Please join the assignments channel for assignment related post, questions and discussions.",
+        "ts": "1516468068.000030",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8RR1N8MS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "TA hours today until 6pm, Library 2nd Floor, high table near Circle1",
+        "ts": "1516478279.000022"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "Hi TA <@U8QP67WJU>, what's your location?",
+        "ts": "1516479844.000152"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "OK I see",
+        "ts": "1516479862.000163"
+    },
+    {
+        "type": "message",
+        "user": "U8TALS83G",
+        "text": "What is the channel heading ?",
+        "thread_ts": "1516467287.000107",
+        "parent_user_id": "U8TN422A3",
+        "ts": "1516484089.000043"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<#C8VCX7PFF|assignments>",
+        "thread_ts": "1516467287.000107",
+        "parent_user_id": "U8TN422A3",
+        "ts": "1516484440.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8TALS83G",
+        "text": "Thankyou so much",
+        "thread_ts": "1516467287.000107",
+        "parent_user_id": "U8TN422A3",
+        "ts": "1516484482.000060"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<!here> We will publish the quiz 2 answers and questions on sunday. This is to give the students who missed the quizzes a chance to attempt the quiz. Thank you !",
+        "thread_ts": "1516487927.000111",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8RFVCE7P",
+                "ts": "1516492451.000016"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1516487927.000111",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U8RR1N8MS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8TJA13V1",
+        "text": "What is the weightage of Assignments, Quizzes, exams and Final project ?",
+        "thread_ts": "1516491612.000073",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8SSHL61M",
+                "ts": "1516741824.000350"
+            },
+            {
+                "user": "U8TJA13V1",
+                "ts": "1516767955.000033"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1516491612.000073"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I haven’t quite decided on that. We have had some discussions. I promise an answer before Tuesday’s class. ",
+        "ts": "1516492416.000032"
+    },
+    {
+        "text": "Make that Monday ",
+        "thread_ts": "1516487927.000111",
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U8RFVCE7P",
+        "root": {
+            "type": "message",
+            "user": "U8SEA6LPR",
+            "text": "<!here> We will publish the quiz 2 answers and questions on sunday. This is to give the students who missed the quizzes a chance to attempt the quiz. Thank you !",
+            "thread_ts": "1516487927.000111",
+            "reply_count": 1,
+            "replies": [
+                {
+                    "user": "U8RFVCE7P",
+                    "ts": "1516492451.000016"
+                }
+            ],
+            "unread_count": 1,
+            "ts": "1516487927.000111"
+        },
+        "ts": "1516492451.000016"
+    }
+]

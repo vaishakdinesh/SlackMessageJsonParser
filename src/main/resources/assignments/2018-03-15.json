@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "As a general rule in these algorithms assignments, if you can arrange to complete the assignment with only one execution of a program, then you should.  If I said that you should vary the cutoff via a command line argument, then you can either do it that way (by writing a shell script) or you can have your main program run a for loop to invoke your experiment, passing in the argument as you go. It all basically comes to the same thing.",
+        "ts": "1521125330.000934"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "In order to notice any significant differences, you will need to sort some very large datasets. Special bonus for anyone who runs their code on a cluster (e.g. AWS).",
+        "ts": "1521125467.000077"
+    },
+    {
+        "type": "message",
+        "user": "U8SL29SMN",
+        "text": "Hi Professor, could you allow resubmission on blackboard? ",
+        "ts": "1521136703.000061",
+        "reactions": [
+            {
+                "name": "rolling_on_the_floor_laughing",
+                "users": [
+                    "U8R5N05S4",
+                    "U8S3Q0LCT",
+                    "U8SL20A1E"
+                ],
+                "count": 3
+            },
+            {
+                "name": "conga_party_parrot",
+                "users": [
+                    "U8R5N05S4",
+                    "U8SL20A1E",
+                    "U8SGQQYA0",
+                    "U8SR5FGF9",
+                    "U8UM725V5"
+                ],
+                "count": 5
+            }
+        ]
+    }
+]

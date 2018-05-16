@@ -1,0 +1,79 @@
+[
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "<@U8R4GUSGG> Seems you haven’t taken quiz 8, are you still want to try it?",
+        "ts": "1522174415.000402"
+    },
+    {
+        "text": "<@U8SEA6LPR> has posted an event to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1522256400^{date_short}|2018-03-28>, <!date^1522256400^{time}|1:00pm EST>-<!date^1522263600^{time}|3:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Curry student center, 1st floor down the wooden steps near the TVs_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *3* interested, *1* declined",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522195309.000149"
+    }
+]

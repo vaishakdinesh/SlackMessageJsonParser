@@ -1,0 +1,144 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "\/poll \"Given that Feb 1st is a career day, would you be able to meet for a makeup class on Feb 2nd at 3:25pm (combined with section 5)?\" \"yes\" \"no\"",
+        "ts": "1516722244.000369"
+    },
+    {
+        "text": "",
+        "bot_id": "B8SNB9Z6V",
+        "attachments": [
+            {
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "title": "Given that Feb 1st is a career day, would you be able to meet for a makeup class on Feb 2nd at 3:25pm (combined with section 5)?",
+                "id": 1,
+                "color": "6ecadc",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":one: yes    `36`\n<@U8S7VP35K>, <@U8T5MQ83B>, <@U8RTZ1RSL>, <@U8SP4N7T7>, <@U8S3Q0LCT>, <@U8RPLEMS7>, <@U8TEBCQ9L>, <@U8T7KFHJT>, <@U8W6SJM6Z>, <@U8TAY6KDG>, <@U8S6JBW3E>, <@U8SBCKK60>, <@U8RPYFCKW>, <@U8TNX61RB>, <@U8RR1N8MS>, <@U8T1CNDAA>, <@U8SV5GM0W>, <@U8SLWA5HQ>, <@U8SMBRZ7C>, <@U8R4GUSGG>, <@U8U5UC9EJ>, <@U8UM725V5>, <@U8REEEH9N>, <@U8RNYHCCQ>, <@U8TKF4N90>, <@U8S2R8FUK>, <@U8XSCKW8P>, <@U8TALS83G>, <@U8X7S94RZ>, <@U8SL29SMN>, <@U8SL20A1E>, <@U8R7149MF>, <@U8T27BDRV>, <@U8W5V4SET>, <@U8T7RAHPU>, <@U8RCA46PJ>\n\n",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":two: no    `6`\n<@U8TN422A3>, <@U8R42GBQ8>, <@U8TRCCKPV>, <@U8W1Z496G>, <@U8XN2P3FG>, <@U8SSHL61M>\n\n",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "callback_id": "9ac4cc38-21ce-400f-881a-c43ebe851513",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "id": 2,
+                "color": "6ecadc",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "vote",
+                        "text": ":one:",
+                        "type": "button",
+                        "value": "1",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "vote",
+                        "text": ":two:",
+                        "type": "button",
+                        "value": "2",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "delete-v2",
+                        "text": "Delete Poll",
+                        "type": "button",
+                        "value": "",
+                        "style": "danger",
+                        "confirm": {
+                            "text": "Are you sure you want to delete the Poll?",
+                            "title": "Delete Poll?",
+                            "ok_text": "Yes",
+                            "dismiss_text": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "callback_id": "9ac4cc38-21ce-400f-881a-c43ebe851513",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "footer": "Simple Poll        <https:\/\/simplepoll.rocks\/dashboard\/info6205-03-37196\/settings\/|Edit Settings>",
+                "id": 3,
+                "footer_icon": "https:\/\/simplepoll.rocks\/static\/main\/favicon.png",
+                "color": "6ecadc"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1516722244.000516"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> please answer the poll above as soon as you can. The location isn't confirmed yet, but I'd like to know as soon as possible if you, the students, can make this time.",
+        "ts": "1516723073.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8UM725V5",
+        "text": "<@U8RFVCE7P> We have your lecture scheduled for Thursday 1540 to 1630 and the extra class starts at 1525. So just a confirmation, we would be having 2 consecutive lectures on that day?",
+        "ts": "1516724156.000127",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "U8RFVCE7P"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "No, there would be no lecture on Feb 1st at 2:50pm  (which is when this section would normally meet). The makeup class will be on Feb 2nd at 3:25pm",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1516724575.000000"
+        },
+        "ts": "1516724312.000695"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Here in the United States, Feb 2nd is called _Groundhog_ _day_. In the movie (and now a musical) of that name, the main character repeats Groundhog day on successive days. We, however, will not be having multiple successive (and identical) classes. Just the one class for both sections in the afternoon.",
+        "ts": "1516724937.000477"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I updated the Course Materials to include the demos for Union-Find.",
+        "ts": "1516730768.000492"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "Did we get information on this.?",
+        "client_msg_id": "6d0ed8cf-58bb-4a63-b98e-fda6cae847a8",
+        "thread_ts": "1516491612.000073",
+        "parent_user_id": "U8TJA13V1",
+        "ts": "1516741824.000350"
+    },
+    {
+        "type": "message",
+        "user": "U8TJA13V1",
+        "text": "Nope",
+        "thread_ts": "1516491612.000073",
+        "parent_user_id": "U8TJA13V1",
+        "ts": "1516767955.000033"
+    }
+]

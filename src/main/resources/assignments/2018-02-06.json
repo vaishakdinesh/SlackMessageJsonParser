@@ -1,0 +1,182 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "In reading over the assignment, I do see that it is confusing\/wrong. In part (3) I used _m_ where I meant to use _n_ in both places. The other source of possible confusion is that you might think that (lambda) function _f_ has to be the sort method itself. Not at all. You need to write a lambda which takes an _Integer_ (_T_) and sorts that number of elements from a (static) array. After all, you don't want to be instantiating and populating the array for every repetition. I'm sorry I didn't make that clearer.",
+        "ts": "1517927527.000065"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have extended the deadline for assignment 3 until Thursday at 3pm and I have updated the description on Blackboard.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1517928214.000000"
+        },
+        "ts": "1517928176.000045"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U8SEA6LPR",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[February 5th, 2018 7:46 AM] scalaprof: If you are really interested in this (and I think you should be), please see: <https:\/\/stackoverflow.com\/questions\/504103\/how-do-i-write-a-correct-micro-benchmark-in-java>",
+                "ts": "1517845597.000704",
+                "author_id": "U8RFVCE7P",
+                "author_subname": "Robin Hillyard",
+                "channel_id": "C8VCX7PFF",
+                "channel_name": "assignments",
+                "is_msg_unfurl": true,
+                "text": "If you are really interested in this (and I think you should be), please see: <https:\/\/stackoverflow.com\/questions\/504103\/how-do-i-write-a-correct-micro-benchmark-in-java>",
+                "author_name": "Robin Hillyard",
+                "author_link": "https:\/\/info6205-03-37196.slack.com\/team\/U8RFVCE7P",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/6829a5ae148884ebf670c87735ef2cfb.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "from_hidden_wksp": false
+            }
+        ],
+        "text": "<@U8SEA6LPR> pinned a message to this channel.",
+        "ts": "1517931564.000116"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U8SEA6LPR",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[February 3rd, 2018 1:39 PM] strong.e: Assignment 3 involves working with lambdas. I've you have never used these before, here are a couple tutorials you may find helpful:\n\n<http:\/\/www.oracle.com\/webfolder\/technetwork\/tutorials\/obe\/java\/Lambda-QuickStart\/index.html>\n\n<https:\/\/medium.freecodecamp.org\/learn-these-4-things-and-working-with-lambda-expressions-b0ab36e0fffc>",
+                "ts": "1517693951.000028",
+                "author_id": "U8SF2FJ0P",
+                "author_subname": "Emily Strong",
+                "channel_id": "C8VCX7PFF",
+                "channel_name": "assignments",
+                "is_msg_unfurl": true,
+                "text": "Assignment 3 involves working with lambdas. I've you have never used these before, here are a couple tutorials you may find helpful:\n\n<http:\/\/www.oracle.com\/webfolder\/technetwork\/tutorials\/obe\/java\/Lambda-QuickStart\/index.html>\n\n<https:\/\/medium.freecodecamp.org\/learn-these-4-things-and-working-with-lambda-expressions-b0ab36e0fffc>",
+                "author_name": "Emily Strong",
+                "author_link": "https:\/\/info6205-03-37196.slack.com\/team\/U8SF2FJ0P",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/e2d866586d34a53994e5a63d01bbe003.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0011-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "from_hidden_wksp": false
+            }
+        ],
+        "text": "<@U8SEA6LPR> pinned a message to this channel.",
+        "ts": "1517931574.000450"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> On further reflection, I am going to add some additional code for assignment 3 so that you will have less to do. Please hold off working on it for now. I expect to extend the deadline again.",
+        "ts": "1517934137.000408",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U8UER1V4M",
+                    "U8ST6RKP0",
+                    "U8TALS83G"
+                ],
+                "count": 3
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U8UER1V4M",
+                    "U8ST6RKP0",
+                    "U8T7KFHJT",
+                    "U8XSCKW8P"
+                ],
+                "count": 4
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U8UER1V4M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have added the extra code to the repository. Please do a pull. There are five files that have changed, of which four are relevant to this assignment.",
+        "ts": "1517941222.000365"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "If you already did a pull in the last 20 minutes, please do another one.",
+        "ts": "1517942373.000271"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have done more refactoring (of the entire repository). I suggest doing another pull now.",
+        "ts": "1517945342.000337"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Assignment 3 deadline now Saturday night.",
+        "ts": "1517947002.000309"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "If you are using an IDE like IntelliJ\/IDEA you can always look for TODOs my opening up the tool window for TODO (#6). TODO is a mainstay of software engineering and not just something we use in these assignments.",
+        "ts": "1517947915.000587",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SSHL61M",
+                    "U8SN2UM6D"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "hi, prof, we don't necessarily have use Benchmark.java from the github COMPLETELY, right? As long as we can meet the assignment requirement.",
+        "ts": "1517952022.000665"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "have to",
+        "ts": "1517952032.000525"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Yes, that’s correct, but I strongly recommend you to use the Benchmark class. You just have to implement the TODOs then.",
+        "ts": "1517952827.000393"
+    },
+    {
+        "type": "message",
+        "user": "U8UER1V4M",
+        "text": "I have submitted assignment 3 before professor change it, can i have another chance to submit it? Please ",
+        "ts": "1517962834.000184"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "<@U8UER1V4M> I give you another chance to submit, check the blackboard",
+        "ts": "1517963009.000002"
+    },
+    {
+        "type": "message",
+        "user": "U8UER1V4M",
+        "text": "Thank you so much!",
+        "ts": "1517963117.000162"
+    }
+]

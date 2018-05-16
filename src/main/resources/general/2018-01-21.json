@@ -1,0 +1,15 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "\/poll “Feb 1st is a career day. Would you prefer to have class that day as usual or arrange a makeup class?” “class as usual” “arrange makeup class”",
+        "ts": "1516592776.000189"
+    },
+    {
+        "text": ":white_check_mark: Poll successfully deleted.",
+        "bot_id": "B8SNB9Z6V",
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1516592777.000021"
+    }
+]

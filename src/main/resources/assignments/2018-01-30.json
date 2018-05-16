@@ -1,0 +1,60 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "The thing about logs is that they are all differ solely by a constant factor _k_ (similar to the difference between miles and kilometres). So, most of the time, it doesn't matter if all you're saying is that `g(n) ~ n log n` or something similar. However, you do need to be clear about the differences in some situations, especially when we talk about the exact number of operations required by, say, merge sort.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1517321625.000000"
+        },
+        "thread_ts": "1517321608.000738",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U8SSHL61M",
+                "ts": "1517326275.000571"
+            },
+            {
+                "user": "U8SSHL61M",
+                "ts": "1517326279.000324"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1517321608.000738"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "In particular, if you're drawing a log-log graph and measuring the slope to get the exponent of _n_, it makes no difference provided of course that you use the same logs in both axes :wink:",
+        "ts": "1517321749.000105"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "Hi Sir,",
+        "thread_ts": "1517321608.000738",
+        "parent_user_id": "U8RFVCE7P",
+        "ts": "1517326275.000571"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "Instead of plotting a graph, I took multiple values for every value of n and took mean of that to remove the effect of randomness. Then compared the result with mathematical value of f(n) of same. A little like in previous the random walk problem. I hope thats is also ok as I have already submitted :thinking_face:.",
+        "edited": {
+            "user": "U8SSHL61M",
+            "ts": "1517326494.000000"
+        },
+        "thread_ts": "1517321608.000738",
+        "parent_user_id": "U8RFVCE7P",
+        "ts": "1517326279.000324",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8RFVCE7P"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

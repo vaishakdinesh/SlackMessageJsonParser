@@ -1,0 +1,334 @@
+[
+    {
+        "text": "<@U8SEA6LPR> has posted an event to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast",
+                "fallback": "TA hours",
+                "title": "TA hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1521658800^{date_short}|2018-03-21>, <!date^1521658800^{time}|3:00pm EST>-<!date^1521666000^{time}|5:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *2* interested, *1* declined",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521636253.000256"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "\/poll “How do you feel about the speed of the class and the depth that we’ve gone into? Are you concerned that we will have to skip some important algorithms? Do you feel that it was important to get an understanding of how we approach algorithms\/data structures _in general_?” “too slow, more depth than necessary” “pace and depth about right” “too fast, not enough depth” anonymous",
+        "ts": "1521644911.000711"
+    },
+    {
+        "text": "",
+        "bot_id": "B8SNB9Z6V",
+        "attachments": [
+            {
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "pretext": ":bust_in_silhouette: This poll is anonymous. The identity of all responses will be hidden.",
+                "title": "How do you feel about the speed of the class and the depth that we’ve gone into? Are you concerned that we will have to skip some important algorithms? Do you feel that it was important to get an understanding of how we approach algorithms\/data structures _in general_?",
+                "id": 1,
+                "color": "6ecadc",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":one: too slow, more depth than necessary    `2`\n:+1::+1:\n\n",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":two: pace and depth about right    `13`\n:+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1::+1:\n\n",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":three: too fast, not enough depth    `6`\n:+1::+1::+1::+1::+1::+1:\n\n",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "callback_id": "c97b51a0-7f57-47e1-b0cb-ddf0d36dc9cc",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "id": 2,
+                "color": "6ecadc",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "vote",
+                        "text": ":one:",
+                        "type": "button",
+                        "value": "1",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "vote",
+                        "text": ":two:",
+                        "type": "button",
+                        "value": "2",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "vote",
+                        "text": ":three:",
+                        "type": "button",
+                        "value": "3",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "delete-v2",
+                        "text": "Delete Poll",
+                        "type": "button",
+                        "value": "",
+                        "style": "danger",
+                        "confirm": {
+                            "text": "Are you sure you want to delete the Poll?",
+                            "title": "Delete Poll?",
+                            "ok_text": "Yes",
+                            "dismiss_text": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "callback_id": "c97b51a0-7f57-47e1-b0cb-ddf0d36dc9cc",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "footer": "Simple Poll        <https:\/\/simplepoll.rocks\/dashboard\/info6205-03-37196\/settings\/|Edit Settings>",
+                "id": 3,
+                "footer_icon": "https:\/\/simplepoll.rocks\/static\/main\/favicon.png",
+                "color": "6ecadc"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521644911.000893"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Yesterday, I mentioned that you can do modulo and integer division more efficiently with bitwise operations if the divisor is a power of two. (Actually, I think I showed you the division rather than the modulo equivalent). But here is a discussion of the issue on StackOverflow: <https:\/\/stackoverflow.com\/questions\/29844345\/how-is-the-modulo-operator-implemented-in-the-hotspot-jvm>",
+        "attachments": [
+            {
+                "title": "How is the modulo operator implemented in the HotSpot JVM?",
+                "title_link": "https:\/\/stackoverflow.com\/questions\/29844345\/how-is-the-modulo-operator-implemented-in-the-hotspot-jvm",
+                "text": "I understand that the modulus operation can be optimised using a little &amp; wise magic where the divisor is a power of 2... and presumably this an optimisation that the JIT compiler makes?",
+                "fallback": "How is the modulo operator implemented in the HotSpot JVM?",
+                "thumb_url": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded",
+                "from_url": "https:\/\/stackoverflow.com\/questions\/29844345\/how-is-the-modulo-operator-implemented-in-the-hotspot-jvm",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/favicon.ico?v=4f32ecc8f43d",
+                "service_name": "stackoverflow.com",
+                "id": 1
+            }
+        ],
+        "ts": "1521646130.000125",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9091SUP2",
+                    "U8SSHL61M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "text": ":wave: Heads up, *TA hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521658655.000424"
+    },
+    {
+        "text": "An event has been *restored* to *`<#C8QRLFJ8H>`* by <@U8SEA6LPR>.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageRestoreBroadcast",
+                "fallback": "TA hours",
+                "title": "TA hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1521658800^{date_short}|2018-03-21>, <!date^1521658800^{time}|3:00pm EST>-<!date^1521666000^{time}|5:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *1* interested, *1* declined",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "5a0c63d5-cb36-4cd4-9719-698c4d2a9ddf",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521658804.000763"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "In curry student center. At a table near the elevator.",
+        "ts": "1521659519.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8TF8N682",
+        "text": "Is assignment5 a team assignment or an individual assignment?",
+        "edited": {
+            "user": "U8TF8N682",
+            "ts": "1521665811.000000"
+        },
+        "ts": "1521665790.000538"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "It would be individual.",
+        "ts": "1521666005.000288",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8RFVCE7P",
+                    "U8UER1V4M",
+                    "U8SSHL61M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "It should be fairly easy as you’ve had quite a bit of experience with this kind of assignment now. ",
+        "ts": "1521666427.000485"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "There have been some questions about assignment 5 particularly regarding whether students have to create a hash table. The answer is no. All you have to do is to maintain an int array of size M and every time a random object (the “key”) is hashed to a value between 0 and M-1, you increment the indexed array value. When the C1 and B0 events occur, make a note of how many hashes were required to get there.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1522025733.000000"
+        },
+        "ts": "1521822641.000716"
+    }
+]

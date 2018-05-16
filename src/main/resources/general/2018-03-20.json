@@ -1,0 +1,193 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "These are the picture cards that I was speaking of. I can’t believe that I was only four years old when I was collecting these but that’s what the web site implies: <http:\/\/www.brookebondcollectables.co.uk\/sets\/britishbirds.htm>",
+        "attachments": [
+            {
+                "title": "Brooke Bond Collectables - Tea Card Set Details - British Birds",
+                "title_link": "http:\/\/www.brookebondcollectables.co.uk\/sets\/britishbirds.htm",
+                "text": "Brooke Bond cards and collectables information site, everything you need to know about Brooke Bond. PLUS items BOUGHT, SOLD &amp; FOUND!",
+                "fallback": "Brooke Bond Collectables - Tea Card Set Details - British Birds",
+                "from_url": "http:\/\/www.brookebondcollectables.co.uk\/sets\/britishbirds.htm",
+                "service_icon": "http:\/\/www.brookebondcollectables.co.uk\/favicon.ico",
+                "service_name": "brookebondcollectables.co.uk",
+                "id": 1
+            }
+        ],
+        "ts": "1521566021.000037"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "\/poll “How many packets of tea would I expect to open before getting a complete set of 20?” “20\" “50” “60\" “100” “none of the above”",
+        "ts": "1521566267.000517"
+    },
+    {
+        "text": "",
+        "bot_id": "B8SNB9Z6V",
+        "attachments": [
+            {
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "title": "How many packets of tea would I expect to open before getting a complete set of 20?",
+                "id": 1,
+                "color": "6ecadc",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":one: 20\n\n\n",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":two: 50\n\n\n",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":three: 60    `1`\n<@U8SKJ3V6J>\n\n",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":four: 100\n\n\n",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":five: none of the above\n\n\n",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "callback_id": "a10343ef-5287-4c38-8a53-b0b18944c887",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "id": 2,
+                "color": "6ecadc",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "vote",
+                        "text": ":one:",
+                        "type": "button",
+                        "value": "1",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "vote",
+                        "text": ":two:",
+                        "type": "button",
+                        "value": "2",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "vote",
+                        "text": ":three:",
+                        "type": "button",
+                        "value": "3",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "vote",
+                        "text": ":four:",
+                        "type": "button",
+                        "value": "4",
+                        "style": ""
+                    },
+                    {
+                        "id": "5",
+                        "name": "vote",
+                        "text": ":five:",
+                        "type": "button",
+                        "value": "5",
+                        "style": ""
+                    }
+                ]
+            },
+            {
+                "callback_id": "a10343ef-5287-4c38-8a53-b0b18944c887",
+                "fallback": "Open Slack to delete the Simple Poll you created.",
+                "id": 3,
+                "color": "6ecadc",
+                "actions": [
+                    {
+                        "id": "6",
+                        "name": "delete-v2",
+                        "text": "Delete Poll",
+                        "type": "button",
+                        "value": "",
+                        "style": "danger",
+                        "confirm": {
+                            "text": "Are you sure you want to delete the Poll?",
+                            "title": "Delete Poll?",
+                            "ok_text": "Yes",
+                            "dismiss_text": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "callback_id": "a10343ef-5287-4c38-8a53-b0b18944c887",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "footer": "Simple Poll        <https:\/\/simplepoll.rocks\/dashboard\/info6205-03-37196\/settings\/|Edit Settings>",
+                "id": 4,
+                "footer_icon": "https:\/\/simplepoll.rocks\/static\/main\/favicon.png",
+                "color": "6ecadc"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521566267.000821"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I should point out that the `n ln n` formula for the coupon collector is a simplification (it’s a ~ expression). The correct formula can be found here: <https:\/\/en.wikipedia.org\/wiki\/Coupon_collector%27s_problem>",
+        "attachments": [
+            {
+                "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/46\/Coupon_collector_problem.svg\/1200px-Coupon_collector_problem.svg.png",
+                "image_width": 1200,
+                "image_height": 1200,
+                "image_bytes": 215577,
+                "title": "Coupon collector's problem",
+                "title_link": "https:\/\/en.wikipedia.org\/wiki\/Coupon_collector%27s_problem",
+                "author_name": "Wikipedia",
+                "author_link": "https:\/\/en.wikipedia.org\/",
+                "text": "In probability theory, the coupon collector's problem describes the \"collect all coupons and win\" contests. It asks the following question: Suppose that there is an urn of n different coupons, from which coupons are being collected, equally likely, with replacement. What is the probability that more than t sample trials are needed to collect all n coupons? An alternative statement is: Given n coupons, how many coupons do you expect you need to draw with replacement before having drawn each coupon at least once? The mathematical analysis of the problem reveals that the expected number of trials needed grows as \n  \n    \n      \n        Θ\n        (\n        n\n        log\n        ⁡\n        (\n        n\n        )\n        )\n      \n    \n    {\\displaystyle \\Theta (n\\log(n))}\n  . For example, when n = 50 it takes about 225 trials on average to collect all 50 coupons.",
+                "fallback": "wikipedia: Coupon collector's problem",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/wikipedia.png",
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1521578416.000000"
+        },
+        "ts": "1521578236.000752"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "As you can see the true value for 20 items is 72, not 60.",
+        "ts": "1521578259.000311"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "But kudos to <@U8SKJ3V6J> for being the first and only one who answered the poll",
+        "ts": "1521578289.000457"
+    },
+    {
+        "type": "message",
+        "user": "U8SR5FGF9",
+        "text": ":+1:",
+        "ts": "1521578433.000491"
+    }
+]

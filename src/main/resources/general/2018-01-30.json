@@ -1,0 +1,96 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Today we get to tackle something _real_: sorting. This is one of the most important--and varied--fields of algorithm\/data-structure design.",
+        "ts": "1517324974.000483"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<https:\/\/www.toptal.com\/developers\/sorting-algorithms>",
+        "attachments": [
+            {
+                "title": "Sorting Algorithm Animations",
+                "title_link": "https:\/\/www.toptal.com\/developers\/sorting-algorithms",
+                "text": "Animation, code, analysis, and discussion of 8 sorting algorithms on 4 initial conditions.",
+                "fallback": "Sorting Algorithm Animations",
+                "image_url": "https:\/\/assets.toptal.io\/assets\/front\/static\/public\/blocks\/sorting_algorithms\/og_image_76642a.jpg",
+                "from_url": "https:\/\/www.toptal.com\/developers\/sorting-algorithms",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 81315,
+                "service_name": "toptal.com",
+                "id": 1
+            }
+        ],
+        "ts": "1517334637.000624",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SEA6LPR",
+                    "U8QP67WJU",
+                    "U8SGQQYA0",
+                    "U8UER1V4M"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U8SEA6LPR",
+        "item_type": "C",
+        "attachments": [
+            {
+                "title": "Sorting Algorithm Animations",
+                "title_link": "https:\/\/www.toptal.com\/developers\/sorting-algorithms",
+                "text": "Animation, code, analysis, and discussion of 8 sorting algorithms on 4 initial conditions.",
+                "fallback": "Sorting Algorithm Animations",
+                "image_url": "https:\/\/assets.toptal.io\/assets\/front\/static\/public\/blocks\/sorting_algorithms\/og_image_76642a.jpg",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 81315,
+                "service_name": "toptal.com",
+                "id": 1
+            }
+        ],
+        "text": "<@U8SEA6LPR> pinned a message to this channel.",
+        "ts": "1517337576.000018",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8UER1V4M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8UME98Q6",
+        "text": "Excuse me, I click submit before I attach my file in it. And it has no start new button. How can I reload my work on the BB. Sorry about that.",
+        "ts": "1517375171.000265"
+    },
+    {
+        "type": "message",
+        "user": "U8UME98Q6",
+        "text": "<@U8QP67WJU> ",
+        "ts": "1517375190.000183"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "I changed the maximum allowed submission times to 2, so that you have another chance to submit <@U8UME98Q6> ",
+        "ts": "1517375949.000082"
+    },
+    {
+        "type": "message",
+        "user": "U8UME98Q6",
+        "text": "Really appreciate that. Thank you for ur help and have a good night.",
+        "ts": "1517376028.000015"
+    }
+]

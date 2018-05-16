@@ -1,0 +1,150 @@
+[
+    {
+        "user": "U8S7VP35K",
+        "text": "<@U8S7VP35K> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516467695.000025"
+    },
+    {
+        "user": "U8TN422A3",
+        "text": "<@U8TN422A3> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516468020.000012"
+    },
+    {
+        "user": "U8SF2FJ0P",
+        "text": "<@U8SF2FJ0P> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516468080.000111"
+    },
+    {
+        "user": "U8RRE461X",
+        "text": "<@U8RRE461X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516468117.000072"
+    },
+    {
+        "user": "U8SL29SMN",
+        "text": "<@U8SL29SMN> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516468136.000099"
+    },
+    {
+        "user": "U8T5MQ83B",
+        "text": "<@U8T5MQ83B> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516468147.000063"
+    },
+    {
+        "user": "U8ST6RKP0",
+        "text": "<@U8ST6RKP0> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516468283.000067"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8RRE461X> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8RRE461X\/F8X37JJ9M\/image.png|image.png>",
+        "file": {
+            "id": "F8X37JJ9M",
+            "created": 1516470046,
+            "timestamp": 1516470046,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U8RRE461X",
+            "editable": false,
+            "size": 186352,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F8X37JJ9M\/image.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F8X37JJ9M\/download\/image.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_64.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_80.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_360.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_360_w": 360,
+            "thumb_360_h": 218,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_480.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_480_w": 480,
+            "thumb_480_h": 290,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_160.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_720.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_720_w": 720,
+            "thumb_720_h": 435,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_800.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_800_w": 800,
+            "thumb_800_h": 483,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_960.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_960_w": 960,
+            "thumb_960_h": 580,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F8X37JJ9M-9ae2feba79\/image_1024.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 619,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 1160,
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8RRE461X\/F8X37JJ9M\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F8X37JJ9M-22dca81400",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8RRE461X",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "zhao.haob",
+        "bot_id": null,
+        "ts": "1516470049.000030"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "is that what is required for a unit test?",
+        "ts": "1516470066.000045"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "yes",
+        "ts": "1516470077.000123"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "alright, thank you",
+        "ts": "1516470099.000123"
+    },
+    {
+        "type": "message",
+        "user": "U8TN422A3",
+        "text": "Re-submissions are allowed on the assignment ?",
+        "ts": "1516471492.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "No. If you feel you need to resubmit please let me know",
+        "ts": "1516471669.000028"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "Just let the l (length of every step) = 1, and figure out the relationship between d and n",
+        "ts": "1516483085.000086"
+    }
+]

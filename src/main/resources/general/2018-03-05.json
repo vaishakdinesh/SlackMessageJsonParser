@@ -1,0 +1,34 @@
+[
+    {
+        "text": ":face_with_monocle: Good day! Looks like all the events in *`<#C8QRLFJ8H>`* have passed. Shall we create a new event?",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "text": "<https:\/\/medium.com\/eventbot\/improving-the-weekly-summary-1f190d2363d7?source=rss----c3b2e951ffd1---4|Eventbot blog: Improving the weekly summary>",
+                "id": 1,
+                "color": "0099ff",
+                "fallback": "<https:\/\/medium.com\/eventbot\/improving-the-weekly-summary-1f190d2363d7?source=rss----c3b2e951ffd1---4|Eventbot blog: Improving the weekly summary>"
+            },
+            {
+                "callback_id": "eventMessageDigestNoUpcoming",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 2,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "primary"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1520258482.000633"
+    }
+]

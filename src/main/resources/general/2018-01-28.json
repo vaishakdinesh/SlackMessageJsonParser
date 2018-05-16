@@ -1,0 +1,235 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I just answered a question on Quora which pretty much comes straight out of my Entropy module: <https:\/\/www.quora.com\/Why-is-log-n-Theta-log-n-n\/answer\/Robin-Hillyard>",
+        "ts": "1517189479.000120"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Exercise 1.4.5.g (p208) in the book. Give tilde approximation for n^100\/2^n.",
+        "ts": "1517196228.000102"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "So, which of these is growing fastest? Because that’s what’s we use for the ~ notation. If you’re not sure which one is growing the fastest, you could do a few samples in a spreadsheet.",
+        "ts": "1517196291.000038"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8RFVCE7P> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F9008FU0J\/-.txt|Untitled> and commented: But I’ve done it for you :slightly_smiling_face:",
+        "file": {
+            "id": "F9008FU0J",
+            "created": 1517196319,
+            "timestamp": 1517196319,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U8RFVCE7P",
+            "editable": true,
+            "size": 165,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F9008FU0J\/-.txt?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F9008FU0J\/download\/-.txt?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F9008FU0J\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F9008FU0J-b8ac2c5197",
+            "edit_link": "https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F9008FU0J\/-.txt\/edit",
+            "preview": "n\tn^100\t2^n\r\n1\t1.00E+00\t2\r\n2\t1.27E+30\t4\r\n3\t5.15E+47\t8\r\n4\t1.61E+60\t16\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>n   n^100   2^n<\/pre><\/div>\n<div><pre>1   1.00E+00    2<\/pre><\/div>\n<div><pre>2   1.27E+30    4<\/pre><\/div>\n<div><pre>3   5.15E+47    8<\/pre><\/div>\n<div><pre>4   1.61E+60    16<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 11,
+            "lines_more": 6,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc8ZAH4VDE",
+                "created": 1517196319,
+                "timestamp": 1517196319,
+                "user": "U8RFVCE7P",
+                "is_intro": true,
+                "comment": "But I’ve done it for you :slightly_smiling_face:"
+            }
+        },
+        "user": "U8RFVCE7P",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "scalaprof",
+        "bot_id": null,
+        "ts": "1517196320.000088"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "So, the answer is…?",
+        "ts": "1517196338.000193"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Another way to think about it is to take the log of the expression: `100 log n - n log 2`. Is it possible that this number ever equals zero? It seems like it should.",
+        "ts": "1517196646.000187"
+    },
+    {
+        "type": "message",
+        "user": "U8S7Z1P42",
+        "text": "(removed)",
+        "edited": {
+            "user": "U8S7Z1P42",
+            "ts": "1517196926.000000"
+        },
+        "ts": "1517196670.000100"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "well, `n \/ log n = 100 \/ log 2`",
+        "ts": "1517196784.000189"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "or `n \/ log n = 144`",
+        "ts": "1517197014.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8RPLEMS7",
+        "text": "it seems n^100 grows much faster compared to 2^n",
+        "ts": "1517197028.000001"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Well, it certainly does for small n",
+        "ts": "1517197047.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "But what about for very large n? that’s to say n greater than the root of the equation above?",
+        "ts": "1517197075.000165"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "How about n=1000?",
+        "ts": "1517197161.000178"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "We should recognize that anything to the _power_ of _n_ will eventually outgrow something which is _n_ to any power.",
+        "ts": "1517197265.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "So, the answer is…?",
+        "ts": "1517197277.000094"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8RFVCE7P> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F90RHG3DL\/-.txt|Untitled> and commented: Here’s the extension of the spreadsheet I showed before. As you can see the 2^n column (on right) is now considerably larger than the n^100 column (middle). I deliberately tried to get you to go down the wrong path earlier :wink:",
+        "file": {
+            "id": "F90RHG3DL",
+            "created": 1517197468,
+            "timestamp": 1517197468,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U8RFVCE7P",
+            "editable": true,
+            "size": 97,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F90RHG3DL\/-.txt?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F90RHG3DL\/download\/-.txt?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F90RHG3DL\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F90RHG3DL-c13e58acea",
+            "edit_link": "https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F90RHG3DL\/-.txt\/edit",
+            "preview": "32\t3.27E+150\t4.29E+09\r\n100\t1.00E+200\t1.27E+30\r\n1000\t1.00E+300\t1.07E+301\r\n1010\t2.70E+300\t1.10E+304",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>32  3.27E+150   4.29E+09<\/pre><\/div>\n<div><pre>100 1.00E+200   1.27E+30<\/pre><\/div>\n<div><pre>1000    1.00E+300   1.07E+301<\/pre><\/div>\n<div><pre>1010    2.70E+300   1.10E+304<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc903V3ZHT",
+                "created": 1517197468,
+                "timestamp": 1517197468,
+                "user": "U8RFVCE7P",
+                "is_intro": true,
+                "comment": "Here’s the extension of the spreadsheet I showed before. As you can see the 2^n column (on right) is now considerably larger than the n^100 column (middle). I deliberately tried to get you to go down the wrong path earlier :wink:"
+            }
+        },
+        "user": "U8RFVCE7P",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "scalaprof",
+        "bot_id": null,
+        "ts": "1517197469.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8RPLEMS7",
+        "text": ":slightly_smiling_face:  2^n grows faster , but in our question its in denominator , so we need to consider n^100",
+        "ts": "1517197525.000095"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Thank you <@U8RPLEMS7> for bringing my attention to this little problem :slightly_smiling_face: It was an interesting one and one that you should remember from here on!",
+        "ts": "1517197568.000087"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Well, you raise another interesting point there, but the _growth_ is dominated by the 2^n even though that is the denominator. I think as far as tilde is concerned we should still only use that term. So, I believe the answer is…",
+        "ts": "1517197675.000079"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "~ 2^-n",
+        "ts": "1517197688.000232"
+    },
+    {
+        "type": "message",
+        "user": "U8RPLEMS7",
+        "text": "Thank you Professor for the clarification !",
+        "ts": "1517199090.000151",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U8RFVCE7P"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

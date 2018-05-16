@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "As we grade the project, we will at first score only the team “leader.” The other members will come later.",
+        "ts": "1523907288.000670"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "It’s a bit disappointing to find after doing five assignments, that some repositories cannot easily be run. And many repositories are dirty. I don’t know how many times I have to tell you!",
+        "ts": "1523916187.000221"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> Please, if you did not provide a POM file in your repository, please do so now. Maven is the standard way to build projects and the POM file specifies the dependencies, compiler options, etc. You’ve already had five assignments to get used to submitting your work. I shouldn’t have to remind you.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1523921003.000000"
+        },
+        "ts": "1523920293.000274"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "If you put the jars you need in the lib folder of your project, then we don't need a POM file.",
+        "ts": "1523924697.000189"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "if you're only dependency is junit, then you don't need to worry.",
+        "ts": "1523926592.000280"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "And, I thought it would be obvious, but you will not be assessed a late penalty for the POM file.",
+        "ts": "1523926720.000306"
+    }
+]

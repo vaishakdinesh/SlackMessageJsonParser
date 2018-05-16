@@ -1,0 +1,20 @@
+[
+    {
+        "type": "message",
+        "user": "U8ST6RKP0",
+        "text": "should we use natural log or log base 2 for the assignment?",
+        "ts": "1517278530.000235"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "natural",
+        "ts": "1517279048.000083"
+    },
+    {
+        "type": "message",
+        "user": "U8ST6RKP0",
+        "text": "cool, thx!",
+        "ts": "1517279983.000333"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have allowed two submissions for assignment 1, though of course any submission you make now will be marked late. Generally speaking, we have just one submission allowed for an assignment.",
+        "ts": "1516802540.000158"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Some of you have asked for the assignments to be more relevant to the quizzes. It’s hard to achieve this given the schedule, however. I will see if there’s a way that it can be done.",
+        "ts": "1516802630.000525"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have posted assignment 2. Its due date is next Wednesday at midnight so you have a week. This assignment will definitely help prepare you for next Tuesday’s quiz. Some aspects of it might be tricky until you have heard the second lecture on Union-Find later this week.",
+        "ts": "1516803642.000561"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Actually, I’ve changed the availability until tomorrow.",
+        "ts": "1516808344.000554"
+    }
+]

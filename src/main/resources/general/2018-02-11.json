@@ -1,0 +1,54 @@
+[
+    {
+        "type": "message",
+        "user": "U8TGK2HS7",
+        "text": "<@U8QP67WJU> ",
+        "ts": "1518365439.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "<@U8TGK2HS7> Need your full name",
+        "ts": "1518367659.000089"
+    },
+    {
+        "type": "message",
+        "user": "U8TGK2HS7",
+        "text": "<@U8QP67WJU> Zhihan Xue",
+        "ts": "1518367751.000048"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "You can submit again now",
+        "ts": "1518367806.000020"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "This reminds me that each of you should go and update your Slack profile to include your full name.  There’s a space for it, in addition to your display name",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1518371182.000000"
+        },
+        "ts": "1518367838.000026"
+    },
+    {
+        "type": "message",
+        "user": "U8X7S94RZ",
+        "text": "<@U8QP67WJU> I just found that I uploaded the wrong file. Could u give me another chance to submit my assignment. Thank you very much!",
+        "ts": "1518402225.000135"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "You can submit again now, but will deduct some points for late submission",
+        "ts": "1518403181.000180"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "There seems to be an epidemic of incorrect submissions. Is it really so complicated to get it right?",
+        "ts": "1518403243.000025"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<@U8SV5GM0W> I don't think you need to write unit tests. All though you are never discouraged to write them. <@U8RFVCE7P> Correct me if i'm wrong.",
+        "ts": "1521044471.000957"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "Thank you!",
+        "ts": "1521044651.000126"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I thought I had already answered this question (that was for section 5). But Vaishak is correct.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1521055478.000000"
+        },
+        "ts": "1521055334.000524"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "In assignment 4, you are supposed to vary the determinant for the cutting directly to quicksort. You should play with both the size of the array and also the current number of threads compared with the maximuum allowable.",
+        "ts": "1521055637.000471"
+    }
+]

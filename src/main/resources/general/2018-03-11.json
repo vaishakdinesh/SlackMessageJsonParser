@@ -1,0 +1,63 @@
+[
+    {
+        "text": "An event has been *added* to *`<#C8QRLFJ8H>`* by <@U8SF2FJ0P>.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1520870400^{date_short}|2018-03-12> :clock12: <!date^1520870400^{time}|12:00pm EST>-<!date^1520877600^{time}|2:00pm EST> :white_check_mark: 1 :x: 0",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":busts_in_silhouette: Invite",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "0d094c39-9eb4-4db4-a42d-34c608d05c9b",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1520790086.000030"
+    }
+]

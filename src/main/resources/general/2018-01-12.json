@@ -1,0 +1,35 @@
+[
+    {
+        "user": "U8RPLEMS7",
+        "text": "<@U8RPLEMS7> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1515746838.000238"
+    },
+    {
+        "user": "U8RSS6A10",
+        "text": "<@U8RSS6A10> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1515747964.000281"
+    },
+    {
+        "user": "U8R9RHK3J",
+        "text": "<@U8R9RHK3J> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1515758418.000263"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Welcome to the Slack team for INFO6205-03, Spring 2018",
+        "ts": "1515767226.000256"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have updated Blackboard with the names\/contact info of the T\/As. It will take a few days before they can access Blackboard, but they are able to access the Slack channel now.",
+        "ts": "1515767301.000038"
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "type": "message",
+        "user": "U8REEEH9N",
+        "text": "I find that function f will be called m times，but only the first time the array is random，in the rest times，the array is positive sequence. Does anyone know how to reset the array in the function run？",
+        "client_msg_id": "514DC47F-8A01-4435-B7D4-31B7CAA5B34A",
+        "ts": "1518204947.000681"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "This is what I wrote in response to a question in section 05: When you are doing any kind of testing or benchmarking you must ensure that conditions at the start of each test\/run are identical, otherwise you are not testing\/measuring the same thing. You will need to reset the contents of the array before each run if the array has been sorted by the previous run!",
+        "ts": "1518205022.000502"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "If we were using immutable data structures, this would not be a problem of course. But we are using (mutable) arrays. The normal way to do this would be to keep the input array intact and before each run, copy it to the array that you will actually sort. But instantiate (as static) this copy array only once. But it will have to be copied each time and of course that will affect the running time. To do the job perfectly, you should “stop” the clock while you are doing the copy. However, I don’t expect quite that level of sophistication.",
+        "ts": "1518205272.000516"
+    },
+    {
+        "type": "message",
+        "user": "U8REEEH9N",
+        "text": "Thank you very much！",
+        "client_msg_id": "370D34FF-1EE0-498C-A02C-53F2B06ECEA2",
+        "ts": "1518205611.000203"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "Make sure you also included all necessary unit test files, and make sure you passed all tests",
+        "ts": "1518215220.000105"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "hi, I cannot find unitest files that can run on latest version Benchmark, can we just run on the old version of Benchmark",
+        "ts": "1518224549.000180"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "I mean, can I just do our own version of implementation as long as we can fullfill the requirement. Exactly doing the version on Github make no sense..",
+        "ts": "1518224626.000147"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Yes, you can do your own version provided you fulfill the requirements. Your Benchmark class must be _generic_, i.e. doesn’t just test sorting. And you must come to proper conclusions regarding timing of code. I never did provide unit tests for Benchmark, so I don’t quite understand the first part of your comment.",
+        "ts": "1518224895.000178"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "I means the InsertionSortTest and SelectionSortTest for testing that two sort...I can use this two unitest files on my implementation of sorting, but not on the recently provided sorting on Github. So I think..I would like to use my own implementation which will makes things easier..Thanks for answering me.",
+        "ts": "1518225300.000023"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "You do need to pass the unit tests, so I’m not sure that it’s going to work for you.",
+        "ts": "1518225472.000046"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "hi professor, I wonder if we need to call the sort method to calculate time in the run method? If so, does it mean that I have to pass the array to be sort as a parameter in to the run method?",
+        "ts": "1518229804.000108"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "i'm still confused how I can calculate the sorting time by the parameter T t (Integer n)",
+        "ts": "1518230113.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "You can access the (very large random) array that you create as a (global) static value. Then you only have to pass in _n_ to specify how many elements of the array you actually want to sort in your test.",
+        "ts": "1518230199.000018"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "Thank you! I got it, but do we have to do so? Since I didn't the follow the template you gave, I create a new array",
+        "ts": "1518230707.000178"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "I create a new array every time I want to sort..",
+        "ts": "1518230745.000118"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "I have thought it through, thank you!",
+        "ts": "1518231329.000013"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "Any one comes up with the same issue that the first sorting result are very big(No matter what kinds of array they are)? Even after 10 times warm up on same array....",
+        "thread_ts": "1518231455.000119",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8SEA6LPR",
+                "ts": "1518237159.000056"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1518231455.000119"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Maybe increase the warmup?",
+        "ts": "1518231485.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "didn't work..I did work to smooth the result on same n, but with different array it DID NOT",
+        "ts": "1518232796.000087"
+    },
+    {
+        "type": "message",
+        "user": "U8STHJHTQ",
+        "text": "No idea...maybe you can send TA your code privately so we can run it and check what happened...",
+        "ts": "1518236147.000059"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Could you elaborate ? ",
+        "edited": {
+            "user": "U8SEA6LPR",
+            "ts": "1518237171.000000"
+        },
+        "thread_ts": "1518231455.000119",
+        "parent_user_id": "U8TDKG10W",
+        "ts": "1518237159.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Hi everyone, If you need help on the assignment, I will be in college tomorrow. I have class from 9 AM-12:30 PM. If there are people who need help, please tag me and let me know or ping me personally, I can stay back for a few hours to help. If no body pings, I will leave after my class.",
+        "ts": "1518237559.000034",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SP4N7T7"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "thanks for helping, I will try to reach out to a TA tomorrow for help.",
+        "ts": "1518241705.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "Have a good night.",
+        "ts": "1518241721.000007"
+    }
+]

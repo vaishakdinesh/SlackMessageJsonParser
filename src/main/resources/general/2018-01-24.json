@@ -1,0 +1,84 @@
+[
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<!channel> I will be having TA hours today from 2-5 pm. I will update the location here later,",
+        "edited": {
+            "user": "U8SEA6LPR",
+            "ts": "1516800791.000000"
+        },
+        "ts": "1516800766.000160"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Do you recall that at the end of the lecture on Tuesday, we noted that when we do the union of two connected components, we have to update the _id_ of every object in one or other of the two components? And that makes it an O(N^2) algorithm. I want you to give some thought before tomorrow’s lecture what we might possibly be able to do to improve that. Don’t just look it up. Force yourself to think about it. The effort will be worth it!",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1516808583.000000"
+        },
+        "ts": "1516808478.000950"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I will offer a hint. Remember that algorithms and data structures are like Yin\/Yang. You won’t be able to improve the _algorithm_ without also improving the _data_ _structure_.",
+        "ts": "1516810750.000394",
+        "reactions": [
+            {
+                "name": "squirrel",
+                "users": [
+                    "U8SR5FGF9",
+                    "U8UER1V4M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<!channel> I'm sitting in Curry, first floor, near the elevator.",
+        "ts": "1516820435.000495"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "i will be here till 5, please free to come if you have question regarding the quizzes, assignments or doubts in general",
+        "ts": "1516820486.000577"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<!here> The assignment has been uploaded to black board and will be made visible tomorrow.",
+        "ts": "1516836302.000140"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "The Assignment channel also states the same.",
+        "ts": "1516836321.000132",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8RFVCE7P",
+                    "U8SSHL61M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "One more hint: instead of list, think tree",
+        "ts": "1516845888.000204"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> Next Thursday’s class (Feb 1st) will be moved to Feb 2nd where you will join with sec05. The venue will be a large lecture theater (SN 108). I will announce this more formally via Blackboard.",
+        "ts": "1516855189.000134"
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I know that some of the recent additions to the class have no access to Blackboard. Neither do the T\/As :disappointed: It’s a big mess this semester and I hope we will get it resolved soon!",
+        "ts": "1516623141.000242"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "I'll be having TA hours today 12:30-2:30 PM on the 2nd floor of the library",
+        "client_msg_id": "feb5c487-2fa3-4b47-9189-c154ef750d2f",
+        "ts": "1516632155.000408"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "<!channel> I'm having TA hours from now until 2:30 PM. I'm at one of high top tables near Circle 1 on the 2nd floor of the library",
+        "ts": "1516642113.000274"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "\/poll “there is only one option to this poll so most of you will not choose an item at all” “I cannot access blackboard for this class”",
+        "ts": "1516649222.000617"
+    },
+    {
+        "text": "",
+        "bot_id": "B8SNB9Z6V",
+        "attachments": [
+            {
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "title": "there is only one option to this poll so most of you will not choose an item at all",
+                "id": 1,
+                "color": "6ecadc",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":one: I cannot access blackboard for this class    `3`\n<@U8TKF4N90>, <@U8SMBRZ7C>, <@U8W6SJM6Z>\n\n",
+                        "short": false
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "callback_id": "029491ca-f9fe-4a21-b3d6-1de9107b90f8",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "id": 2,
+                "color": "6ecadc",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "vote",
+                        "text": ":one:",
+                        "type": "button",
+                        "value": "1",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "delete-v2",
+                        "text": "Delete Poll",
+                        "type": "button",
+                        "value": "",
+                        "style": "danger",
+                        "confirm": {
+                            "text": "Are you sure you want to delete the Poll?",
+                            "title": "Delete Poll?",
+                            "ok_text": "Yes",
+                            "dismiss_text": "No"
+                        }
+                    }
+                ]
+            },
+            {
+                "callback_id": "029491ca-f9fe-4a21-b3d6-1de9107b90f8",
+                "fallback": "Open Slack to cast your vote in this Simple Poll",
+                "footer": "Simple Poll        <https:\/\/simplepoll.rocks\/dashboard\/info6205-03-37196\/settings\/|Edit Settings>",
+                "id": 3,
+                "footer_icon": "https:\/\/simplepoll.rocks\/static\/main\/favicon.png",
+                "color": "6ecadc"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1516649223.000105"
+    },
+    {
+        "type": "message",
+        "user": "U8SGQQYA0",
+        "text": "For tomorrow's quiz any particular topic we must cover other than last week's slides?",
+        "ts": "1516672512.000361"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "That’s it. ",
+        "ts": "1516675133.000146"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "We will be arranging a makeup class for Thursday feb 1st. I will suggest some options tomorrow. ",
+        "ts": "1516675220.000090"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "Assignment 3 involves working with lambdas. I've you have never used these before, here are a couple tutorials you may find helpful:\n\n<http:\/\/www.oracle.com\/webfolder\/technetwork\/tutorials\/obe\/java\/Lambda-QuickStart\/index.html>\n\n<https:\/\/medium.freecodecamp.org\/learn-these-4-things-and-working-with-lambda-expressions-b0ab36e0fffc>",
+        "attachments": [
+            {
+                "service_name": "freeCodeCamp",
+                "title": "How to start working with Lambda Expressions in Java",
+                "title_link": "https:\/\/medium.freecodecamp.org\/learn-these-4-things-and-working-with-lambda-expressions-b0ab36e0fffc",
+                "text": "Before Lambda expressions support was added by JDK 8, I’d only used examples of them in languages like C# and C++.",
+                "fallback": "freeCodeCamp: How to start working with Lambda Expressions in Java",
+                "image_url": "https:\/\/cdn-images-1.medium.com\/max\/1200\/1*_Ascfro4BseNIKWOJ06MwQ.jpeg",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "3 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1514091203,
+                "from_url": "https:\/\/medium.freecodecamp.org\/learn-these-4-things-and-working-with-lambda-expressions-b0ab36e0fffc",
+                "image_width": 375,
+                "image_height": 250,
+                "image_bytes": 159375,
+                "service_icon": "https:\/\/cdn-images-1.medium.com\/fit\/c\/304\/304\/1*MotlWcSa2n6FrOx3ul89kw.png",
+                "id": 1
+            }
+        ],
+        "ts": "1517693951.000028",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SSHL61M"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

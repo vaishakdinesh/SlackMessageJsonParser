@@ -1,0 +1,67 @@
+[
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Note: RandomWalk. java can be found under `INFO6205\/src\/main\/java\/edu\/neu\/coe\/info6205\/randomwalk\/`",
+        "ts": "1516205263.000485"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have made some small adjustments to my office hours on Blackboard. As always, it is much appreciated if you can let me know if you plan to come and see me. But drop-ins are fine too.",
+        "ts": "1516205315.000323"
+    },
+    {
+        "type": "message",
+        "user": "U8T3DU77H",
+        "text": "Hi All, i’ll be keeping TA hours today from 4:30pm to 7:30pm @Curry Center, Wooden Stairs. Feel free to drop by!",
+        "ts": "1516213193.000221"
+    },
+    {
+        "type": "message",
+        "user": "U8T3DU77H",
+        "text": "Hi all , running late by 15mins! Apologies for the inconvenience caused.",
+        "thread_ts": "1516223296.000076",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U8S7VP35K",
+                "ts": "1516226652.000392"
+            },
+            {
+                "user": "U8T3DU77H",
+                "ts": "1516226714.000035"
+            },
+            {
+                "user": "U8T3DU77H",
+                "ts": "1516226734.000808"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1516223296.000076"
+    },
+    {
+        "type": "message",
+        "user": "U8S7VP35K",
+        "text": "Hi Devesh, are you sitting below the ballroom in curry centre? ",
+        "thread_ts": "1516223296.000076",
+        "parent_user_id": "U8T3DU77H",
+        "ts": "1516226652.000392"
+    },
+    {
+        "type": "message",
+        "user": "U8T3DU77H",
+        "text": "yeah",
+        "thread_ts": "1516223296.000076",
+        "parent_user_id": "U8T3DU77H",
+        "ts": "1516226714.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8T3DU77H",
+        "text": "wooden stairs, right in front of the ballroom",
+        "thread_ts": "1516223296.000076",
+        "parent_user_id": "U8T3DU77H",
+        "ts": "1516226734.000808"
+    }
+]

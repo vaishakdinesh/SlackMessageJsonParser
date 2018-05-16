@@ -1,0 +1,27 @@
+[
+    {
+        "type": "message",
+        "user": "U8UME98Q6",
+        "text": "<@U8QP67WJU> I uploaded wrong file. Could u give me another shot.",
+        "client_msg_id": "94380cce-1aa2-4416-aac8-73308adc0c0e",
+        "ts": "1518291620.000104"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "ok",
+        "ts": "1518292060.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "I take TA hour today until 5pm at Library 2nd Floor high table near Circle 1",
+        "ts": "1518293363.000042"
+    },
+    {
+        "type": "message",
+        "user": "U8TGK2HS7",
+        "text": "@I uploaded an empty file. Could u give me another chance to submit my assignment.",
+        "ts": "1518332079.000068"
+    }
+]

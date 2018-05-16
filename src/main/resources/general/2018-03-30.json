@@ -1,0 +1,23 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> At the end of each remaining lecture before April 15th, there will be time for either a quiz or, if there is no quiz, time for working on the project. On Tuesday 3rd, we will have quiz #10. On the 7th, there will be an optional quiz (#11). If you already have six good quiz scores, you don't need to do #11 and can work on your project (but please do that outside so as not to disturb).",
+        "thread_ts": "1522432739.000312",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8SSHL61M",
+                "ts": "1522548719.000008"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1522432739.000312"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Please note the exam schedule (Blackboard calendar). I am not planning to change this.",
+        "ts": "1522432804.000166"
+    }
+]

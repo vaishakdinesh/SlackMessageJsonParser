@@ -1,0 +1,20 @@
+[
+    {
+        "type": "message",
+        "user": "U8RPLEMS7",
+        "text": "Hi, can we derive the relationship with the help of Excel",
+        "ts": "1516581612.000001"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Yes, Excel is a standard tool for this sort of thing. I think that’s perfectly OK.",
+        "ts": "1516581662.000119"
+    },
+    {
+        "type": "message",
+        "user": "U8RPLEMS7",
+        "text": "Thank you",
+        "ts": "1516581677.000106"
+    }
+]

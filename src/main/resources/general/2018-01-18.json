@@ -1,0 +1,62 @@
+[
+    {
+        "type": "message",
+        "user": "U8T3DU77H",
+        "text": "TA Hours - 3pm to 5pm @Curry Center, Wooden Stairs",
+        "ts": "1516288782.000335"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Also please note, if you do have questions and can not make it to TA hours or its an urgent issue and can't wait. Please don't hesitate to slack us here in general or slack a TA.",
+        "ts": "1516289073.000049",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U8RR1N8MS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8T3DU77H",
+        "text": "*Update - 3pm to 5:30pm @Curry Center, Wooden Stairs",
+        "ts": "1516289117.000901"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "We will be studying hash codes in more detail when we look at symbol tables in a few weeks time. However, if you're curious about why 31 was chosen as the multiplier for String in Java, take a look at this question on StackOverflow: <https:\/\/stackoverflow.com\/questions\/299304\/why-does-javas-hashcode-in-string-use-31-as-a-multiplier>",
+        "attachments": [
+            {
+                "title": "Why does Java's hashCode() in String use 31 as a multiplier?",
+                "title_link": "https:\/\/stackoverflow.com\/questions\/299304\/why-does-javas-hashcode-in-string-use-31-as-a-multiplier",
+                "text": "In Java, the hash code for a String object is computed as s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1] using int arithmetic, where s[i] is the ith character of the string, n is the length of the ...",
+                "fallback": "Why does Java's hashCode() in String use 31 as a multiplier?",
+                "thumb_url": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded",
+                "from_url": "https:\/\/stackoverflow.com\/questions\/299304\/why-does-javas-hashcode-in-string-use-31-as-a-multiplier",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/favicon.ico?v=4f32ecc8f43d",
+                "service_name": "stackoverflow.com",
+                "id": 1
+            }
+        ],
+        "ts": "1516315837.000047"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "It turns out that this method of creating hash codes is not particularly good (!)",
+        "ts": "1516315878.000250"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have created a channel for assignments. This is where you should ask clarification questions or engage in other related discussions. You should not normally ask such questions privately.",
+        "ts": "1516329602.000132"
+    }
+]

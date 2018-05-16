@@ -1,0 +1,75 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Please note change of final exam venue: SN 108. The time remains 8:30 4\/24",
+        "ts": "1523369521.000441"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U9091SUP2",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[April 10th, 2018 7:12 AM] scalaprof: Please note change of final exam venue: SN 108. The time remains 8:30 4\/24",
+                "ts": "1523369521.000441",
+                "author_id": "U8RFVCE7P",
+                "author_subname": "Robin Hillyard",
+                "channel_id": "C8QRLFJ8H",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "Please note change of final exam venue: SN 108. The time remains 8:30 4\/24",
+                "author_name": "Robin Hillyard",
+                "author_link": "https:\/\/info6205-03-37196.slack.com\/team\/U8RFVCE7P",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/6829a5ae148884ebf670c87735ef2cfb.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "from_hidden_wksp": false
+            }
+        ],
+        "text": "<@U9091SUP2> pinned a message to this channel.",
+        "ts": "1523400092.000238"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "On Thursday, we will have something like a lab session on genetic algorithms. Attendance is voluntary.",
+        "ts": "1523410597.000142"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "It’s not really necessary to pin that comment about the final exam. It’s on Blackboard.",
+        "ts": "1523410637.000169"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> Final Exam: I will get you some mock questions to study, available Monday. On Tuesday, I will cover the study guide. The exam will concentrate mostly on the material since the mid-term. However, there are certain things you _must_ know and these may be included in the final. I will talk about those on Tuesday.",
+        "ts": "1523410783.000270",
+        "reactions": [
+            {
+                "name": "squirrel",
+                "users": [
+                    "U8UER1V4M"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U8SSHL61M",
+                    "U8SN2UM6D",
+                    "U8R42GBQ8",
+                    "U9091SUP2",
+                    "U8T1CNDAA",
+                    "U8SR5FGF9",
+                    "U8TF8N682"
+                ],
+                "count": 7
+            }
+        ]
+    }
+]

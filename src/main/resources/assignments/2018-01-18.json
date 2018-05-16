@@ -1,0 +1,73 @@
+[
+    {
+        "user": "U8RFVCE7P",
+        "text": "<@U8RFVCE7P> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516329053.000300"
+    },
+    {
+        "user": "U8RFVCE7P",
+        "purpose": "This is where all questions regarding assignments should be asked.",
+        "text": "<@U8RFVCE7P> set the channel purpose: This is where all questions regarding assignments should be asked.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1516329054.000064"
+    },
+    {
+        "user": "U8STHJHTQ",
+        "text": "<@U8STHJHTQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516329647.000161"
+    },
+    {
+        "user": "U8SSHL61M",
+        "text": "<@U8SSHL61M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516330940.000137"
+    },
+    {
+        "user": "U8TRCCKPV",
+        "text": "<@U8TRCCKPV> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516332916.000226"
+    },
+    {
+        "user": "U8R5N05S4",
+        "text": "<@U8R5N05S4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516336057.000183"
+    },
+    {
+        "user": "U8S7Z1P42",
+        "text": "<@U8S7Z1P42> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516336281.000222"
+    },
+    {
+        "user": "U8T38H01F",
+        "text": "<@U8T38H01F> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516340502.000018"
+    },
+    {
+        "user": "U8R42GBQ8",
+        "text": "<@U8R42GBQ8> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516340956.000121"
+    },
+    {
+        "user": "U8SGQQYA0",
+        "text": "<@U8SGQQYA0> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1516341036.000131"
+    }
+]

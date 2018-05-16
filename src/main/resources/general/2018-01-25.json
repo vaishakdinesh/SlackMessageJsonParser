@@ -1,0 +1,57 @@
+[
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "If you want to learn more about induction, a good resource is the free textbook Mathematics for Computer Science available on MIT Opencourseware:  <https:\/\/ocw.mit.edu\/courses\/electrical-engineering-and-computer-science\/6-042j-mathematics-for-computer-science-spring-2015\/readings\/>. Chapter 5 is on induction, and chapter 1 provides a more general introduction to proofs.\n\nFor a more basic explanation that includes practice problems with solutions: <https:\/\/www.mathsisfun.com\/algebra\/mathematical-induction.html>",
+        "client_msg_id": "0e768feb-0127-4b9b-be9d-5a8e19519454",
+        "attachments": [
+            {
+                "title": "Readings | Mathematics for Computer Science | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+                "title_link": "https:\/\/ocw.mit.edu\/courses\/electrical-engineering-and-computer-science\/6-042j-mathematics-for-computer-science-spring-2015\/readings\/",
+                "text": "This section provides courseware and readings for each session of the course, and the full course textbook.",
+                "fallback": "Readings | Mathematics for Computer Science | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+                "image_url": "https:\/\/ocw.mit.edu\/courses\/electrical-engineering-and-computer-science\/6-042j-mathematics-for-computer-science-spring-2015\/6-042js15.jpg",
+                "from_url": "https:\/\/ocw.mit.edu\/courses\/electrical-engineering-and-computer-science\/6-042j-mathematics-for-computer-science-spring-2015\/readings\/",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 24981,
+                "service_icon": "https:\/\/ocw.mit.edu\/images\/apple-touch-icon.png",
+                "service_name": "ocw.mit.edu",
+                "id": 1
+            },
+            {
+                "title": "Mathematical Induction",
+                "title_link": "https:\/\/www.mathsisfun.com\/algebra\/mathematical-induction.html",
+                "text": "Math explained in easy language, plus puzzles, games, quizzes, worksheets and a forum. For K-12 kids, teachers and parents.",
+                "fallback": "Mathematical Induction",
+                "from_url": "https:\/\/www.mathsisfun.com\/algebra\/mathematical-induction.html",
+                "service_icon": "https:\/\/www.mathsisfun.com\/favicon.ico",
+                "service_name": "mathsisfun.com",
+                "id": 2
+            }
+        ],
+        "ts": "1516917756.000181",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SEA6LPR",
+                    "U8RFVCE7P",
+                    "U8T1CNDAA",
+                    "U8RPYFCKW",
+                    "U8TGRBYES",
+                    "U8S7Z1P42",
+                    "U8RRE461X",
+                    "U8SGQQYA0"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I also turned what I did on the board into a short module: 14B-Induction. It’s on blackboard along with updated union-find",
+        "ts": "1516922915.000123"
+    }
+]

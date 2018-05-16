@@ -1,0 +1,114 @@
+[
+    {
+        "text": "<@U8QP67WJU> has posted an event to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast|C8QRLFJ8H",
+                "fallback": "TA hours",
+                "title": "TA hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1523124000^{date_short}|2018-04-07>, <!date^1523124000^{time}|2:00pm EST>-<!date^1523136600^{time}|5:30pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Online_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *1* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "132aaea6-d05e-4c79-94be-3b24a1a17889",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "132aaea6-d05e-4c79-94be-3b24a1a17889",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "132aaea6-d05e-4c79-94be-3b24a1a17889",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "132aaea6-d05e-4c79-94be-3b24a1a17889",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1523122035.000048"
+    },
+    {
+        "text": ":wave: Heads up, *TA hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "132aaea6-d05e-4c79-94be-3b24a1a17889",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1523123922.000069"
+    },
+    {
+        "type": "message",
+        "user": "U8SMBRZ7C",
+        "text": " Hi,\nI am looking for a team member for the project. If anyone is looking for a teammate let me know. Thanks!",
+        "client_msg_id": "2D3589B2-F2B0-496D-8D7C-7DC145BC8F70",
+        "ts": "1523131941.000060"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> The T\/As and I have been working hard to get all your grades completed today (before spring break). I’m sorry that we haven’t been able to keep up with grading as well as we would have liked but I will make a couple of observations: (1) some of the T\/As couldn’t get into Blackboard until the end of the third week; (2) this is an enormously grading-heavy class (partly from your own request) with both weekly quizzes and approximately bi-weekly assignments; (3) because we want to test you on fresh material, all of the quizzes have been created _de_ _nuovo_; (4) both Hacker Rank and Blackboard have their pros and cons--and we end up having to do a lot of manual grading even when it should be automatic in theory. I wish you all an enjoyable spring break and I will see you on the 13th.",
+        "ts": "1519999743.000670"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have one observation about stable sorting to make (from your answers to Q9). Many of you think that the stable sorting is only relevant when we have duplicate keys. Of course, that’s the only time we actually care about it, but the issue of stability arises intrinsically from the mechanism of exchanging elements: do we or do we not keep (other) elements in order when we are moving one particular element? For insertion sort, this is true. For merge sort, we never actually exchange elements at all: we copy them to an auxiliary array, sort them, and then we _merge_ them back.",
+        "ts": "1520001900.000327"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "I find some of you make a tiny mistake when trying to use nextInt(int n) to generate a random integer, I paste the java Random document for this method here FYI",
+        "ts": "1520029217.000389"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "public int nextInt(int bound)\nReturns a pseudorandom, uniformly distributed int value between 0 (inclusive) and the specified value (exclusive), drawn from this random number generator’s sequence. The general contract of nextInt is that one int value in the specified range is pseudorandomly generated and returned. All bound possible int values are produced with (approximately) equal probability. The method nextInt(int bound) is implemented by class Random as if by:\n \n public int nextInt(int bound) {\n   if (bound &lt;= 0)\n     throw new IllegalArgumentException(“bound must be positive”);\n\n   if ((bound &amp; -bound) == bound)  \/\/ i.e., bound is a power of 2\n     return (int)((bound * (long)next(31)) &gt;&gt; 31);\n\n   int bits, val;\n   do {\n       bits = next(31);\n       val = bits % bound;\n   } while (bits - val + (bound-1) &lt; 0);\n   return val;\n }\nThe hedge “approximately” is used in the foregoing description only because the next method is only approximately an unbiased source of independently chosen bits. If it were a perfect source of randomly chosen bits, then the algorithm shown would choose int values from the stated range with perfect uniformity.\n\nThe algorithm is slightly tricky. It rejects values that would result in an uneven distribution (due to the fact that 2^31 is not divisible by n). The probability of a value being rejected depends on n. The worst case is n=2^30+1, for which the probability of a reject is 1\/2, and the expected number of iterations before the loop terminates is 2.\n\nThe algorithm treats the case where n is a power of two specially: it returns the correct number of high-order bits from the underlying pseudo-random number generator. In the absence of special treatment, the correct number of low-order bits would be returned. Linear congruential pseudo-random number generators such as the one implemented by this class are known to have short periods in the sequence of values of their low-order bits. Thus, this special case greatly increases the length of the sequence of values returned by successive calls to this method if n is a small power of two.\n\nParameters:\nbound - the upper bound (exclusive). Must be positive.\nReturns:\nthe next pseudorandom, uniformly distributed int value between zero (inclusive) and bound (exclusive) from this random number generator’s sequence",
+        "ts": "1520029221.000080"
+    }
+]

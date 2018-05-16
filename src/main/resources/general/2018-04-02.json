@@ -1,0 +1,52 @@
+[
+    {
+        "text": ":face_with_monocle: Good day! Looks like all the events in *`<#C8QRLFJ8H>`* have passed. Shall we create a new event?",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageDigestNoUpcoming",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522677677.000301"
+    },
+    {
+        "type": "message",
+        "user": "U8XSCKW8P",
+        "text": "What are the topics for tomorrow’s quiz?",
+        "ts": "1522711205.000189"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "based on graph",
+        "ts": "1522711357.000176"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "undirected graphs in particular",
+        "ts": "1522711454.000074"
+    },
+    {
+        "type": "message",
+        "user": "U8XSCKW8P",
+        "text": "Thanks <@U8RFVCE7P> <@U8QP67WJU>",
+        "ts": "1522711538.000173"
+    }
+]

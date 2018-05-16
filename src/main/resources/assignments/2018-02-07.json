@@ -1,0 +1,48 @@
+[
+    {
+        "type": "message",
+        "user": "U8TN422A3",
+        "text": "The new method in the sort interface has a to and from. Is that meant to be inclusive ?",
+        "ts": "1518051854.000225"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "`from` would  be included while `to` would not be.",
+        "ts": "1518052026.000201",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8RFVCE7P",
+                    "U8UER1V4M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8TN422A3",
+        "text": "thanks",
+        "ts": "1518052042.000195"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "```\/**\n     * Generic sort method.\n     *\n     * @param xs   sort the array xs in place\n     * @param from the index of the first element to sort\n     * @param to   the index of the first element not to sort\n     *\/```",
+        "ts": "1518052066.000290"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "the interface specifies the params too.",
+        "ts": "1518052078.000285"
+    },
+    {
+        "type": "message",
+        "user": "U8TN422A3",
+        "text": "oh thanks, i guess i messed up the comment while moving around things.",
+        "ts": "1518052119.000085"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "Happy New Year!",
+        "ts": "1518710766.000343"
+    },
+    {
+        "type": "message",
+        "user": "U8SKJ3V6J",
+        "text": "Happy New Year:dog:",
+        "ts": "1518712544.000146"
+    },
+    {
+        "type": "message",
+        "user": "U8SK2GG86",
+        "text": "Happy New Year!",
+        "ts": "1518712560.000813"
+    },
+    {
+        "text": ":wave: Heads up, *Office hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "7c52d5f9-be75-48c9-9eb8-c3df3e001b80",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1518730968.000548"
+    },
+    {
+        "type": "message",
+        "user": "U8S7VP35K",
+        "text": "Can we make groups with the people from the other section?",
+        "client_msg_id": "c6d3e09f-4425-417b-97fb-8500e8d6034c",
+        "ts": "1518733835.000278"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "No, I think that it may not be workable. I already told someone else that we can't do this. I'm not 100% sure and maybe next year I might relax this but for now, I just want to avoid any difficulties.",
+        "ts": "1518733934.000267"
+    },
+    {
+        "type": "message",
+        "user": "U8S7VP35K",
+        "text": "Okay.. thank you professor. ",
+        "client_msg_id": "e1e6fe76-f657-4fab-987a-034ad88140b8",
+        "ts": "1518734187.000336"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "We need groups for which activity :flushed:",
+        "client_msg_id": "0f7e58e9-a7af-4b3b-ab35-7243c52ea415",
+        "ts": "1518734825.000439"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "For assignment 4 as well as the ream project which you will do in March\/April. Pairs are preferred.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1518734995.000000"
+        },
+        "ts": "1518734876.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Actually, here are the dates for the team project: kickoff 3\/22, due 4\/15.",
+        "ts": "1518734984.000412"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "Ohk.. Thank you professor. ",
+        "client_msg_id": "432c9fc8-aa6d-4641-87f9-571f84207efb",
+        "ts": "1518735263.000429"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Several people said they were interested in office hours this afternoon but only one showed up.",
+        "ts": "1518748667.000075"
+    }
+]

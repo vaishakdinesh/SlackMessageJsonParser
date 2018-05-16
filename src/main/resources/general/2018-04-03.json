@@ -1,0 +1,27 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> I have been noting with dismay the poor attendance in class recently. This is especially a concern on Tuesdays because I expect that you will do the quizzes without consulting books, internet, friends, etc. If you are not in class, it is hard to be sure of this. Therefore there will be bonus question for those of you who are physically present. Furthermore, if I even see a phone, or if there is any talking or sharing of information during the quiz, you will be disqualified from the quiz. I hope that is 100% clear.",
+        "ts": "1522764707.000363"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "any TA available? can I resubmitted my report excel for assign5, I forget to save the file, so some part of it is missing",
+        "ts": "1522769354.000441"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "<@U8RPYFCKW> <@U8S16JQF6> Both of you have not take quiz 10 today on lecture time, do you have any problem or need help?",
+        "ts": "1522778256.000305"
+    },
+    {
+        "type": "message",
+        "user": "U8S16JQF6",
+        "text": "I had missed today's lecture due to personal reasons, so I haven't took the quiz",
+        "client_msg_id": "07f4e172-6569-4518-8704-032747972666",
+        "ts": "1522778802.000396"
+    }
+]

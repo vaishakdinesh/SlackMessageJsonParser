@@ -1,0 +1,212 @@
+[
+    {
+        "text": ":rolled_up_newspaper: Here’s your weekly summary of upcoming events posted to *`<#C8QRLFJ8H>`*.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageDigest|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1523289600^{date_short}|2018-04-09>, <!date^1523289600^{time}|12:00pm EST>-<!date^1523296800^{time}|2:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _TBD_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *4* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "text": "<https:\/\/support.geteventbot.com\/hc\/en-us\/requests\/new|Have an idea for an Eventbot feature? Let us know :love_letter:>",
+                "id": 2,
+                "color": "0099ff",
+                "fallback": "<https:\/\/support.geteventbot.com\/hc\/en-us\/requests\/new|Have an idea for an Eventbot feature? Let us know :love_letter:>"
+            },
+            {
+                "callback_id": "eventMessageDigest",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 3,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "5",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1523282423.000462"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "Hi professor, may I ask what will be covered in tomorrow’s quiz?",
+        "ts": "1523288996.000603"
+    },
+    {
+        "text": ":wave: Heads up, *TA Hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1523289512.000303"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "I am outside CIE. Here until 2 pm",
+        "ts": "1523289884.000523"
+    },
+    {
+        "text": "An event has been *restored* to *`<#C8QRLFJ8H>`* by <@U8XSCKW8P>.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageRestoreBroadcast|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1523289600^{date_short}|2018-04-09>, <!date^1523289600^{time}|12:00pm EST>-<!date^1523296800^{time}|2:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _TBD_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *4* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "c8be4e6c-036a-466d-9d86-ef0eafdb8c10",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1523312393.000352"
+    }
+]

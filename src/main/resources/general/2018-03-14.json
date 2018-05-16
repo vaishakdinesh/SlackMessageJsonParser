@@ -1,0 +1,25 @@
+[
+    {
+        "type": "message",
+        "user": "U8TRCCKPV",
+        "text": "Hi，Any TA hours today？",
+        "thread_ts": "1521054242.000844",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8SEA6LPR",
+                "ts": "1521054475.000537"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1521054242.000844"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "I won't be able to hold today. But i will be online for the day.",
+        "thread_ts": "1521054242.000844",
+        "parent_user_id": "U8TRCCKPV",
+        "ts": "1521054475.000537"
+    }
+]

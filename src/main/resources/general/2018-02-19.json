@@ -1,0 +1,190 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Mid-term review and study guide posted under course documents",
+        "ts": "1519046160.000426"
+    },
+    {
+        "text": "An event has been *added* to *`<#C8QRLFJ8H>`* by <@U8SF2FJ0P>.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1519063200^{date_short}|2018-02-19> :clock12: <!date^1519063200^{time}|1:00pm EST>-<!date^1519074000^{time}|4:00pm EST> :white_check_mark: 1 :x: 0",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Curry 1st floor",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":hash: Add to channels",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1519058397.000409"
+    },
+    {
+        "text": ":wave: Heads up, *TA Hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1519063080.000168"
+    },
+    {
+        "text": "<@U8SF2FJ0P> has updated the location for this event.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageEditBroadcast",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1519063200^{date_short}|2018-02-19> :clock12: <!date^1519063200^{time}|1:00pm EST>-<!date^1519074000^{time}|4:00pm EST> :white_check_mark: 2 :x: 0",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Curry 1st floor outside the CIE",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":hash: Add to channels",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "4144397a-1f71-4ea9-be77-c07ee94ddec4",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1519063159.000156"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "Hi, what will be syllabus for tomorrow's quiz? ",
+        "client_msg_id": "fdbdc5a9-1cdd-4c21-900f-4c12de10ef9c",
+        "ts": "1519086684.000193",
+        "reactions": [
+            {
+                "name": "disappointed_relieved",
+                "users": [
+                    "U8UM725V5"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

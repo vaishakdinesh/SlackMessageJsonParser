@@ -1,0 +1,17 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> Somewhere I wrote that the optional quiz (#11) would be on the 7th when I meant the 10th.  We don’t meet on the 7th. Apologies.",
+        "ts": "1522929706.000411"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> If you were present in class for the quiz on Tuesday but forgot to sign the attendance sheet, please private-slack me.",
+        "thread_ts": "1522930121.000021",
+        "reply_count": 0,
+        "replies": [],
+        "ts": "1522930121.000021"
+    }
+]

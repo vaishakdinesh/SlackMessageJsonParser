@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "As long as your repository name starts with INFO6205-_nnn_ (where _nnn_ is your team number) you can name it anything you like.",
+        "ts": "1523810843.000133"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> I just looked at one repository and found that it had no README file. The README is worth at least 50 points (out of 100) so it’s not a good idea to leave it out.",
+        "ts": "1523811419.000120"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "There should be no reason to make your repo private but if you do decide to do that you will need to make myself (<mailto:scalaprof@gmail.com|scalaprof@gmail.com>) and at least one T\/A collaborators.",
+        "ts": "1523812905.000065"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "My recommendation for the format of your README file is to use markdown (README.md). The reason for this is that if, for some reason, you need to edit your README file after the deadline (this will trigger an automatic lateness deduction), I would at least be able to see easily what has changed. But as long as it is a standard format (txt, HTML, word, pages, PDF, etc.) it should be OK.",
+        "ts": "1523813295.000079"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> I realize I have been a little inconsistent in my description of the submittable items. The README should describe the problem you are solving and include the names of all team members. The report should include all observations, conclusions, graphs, test runs, etc. The description of genotype, phenotype and fitness function, together with the logic of the evolution steps can go _either_ in the README _or_ in the report.",
+        "ts": "1523820189.000148"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "There should be one (or two) documents at the top level of your repository: <http:\/\/README.xxx|README.xxx> and something like <http:\/\/Report.xxx|Report.xxx> (or similar). We will not be looking at any other documents, other than your source code and unit tests.",
+        "ts": "1523820628.000059"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "There have a been a couple of questions on sorting. The typical way of running a GA evolution is to choose the fittest individuals to reproduce and\/or survive to the next generation. You don’t have to sort them all (n log n) operations because half of them (approximately) will be ignored and so their order is not important. But you do have to choose the best set and a priority queue is ideal for that. Again, they don’t have to be in order either, so you can choose any method you like to implement that. We talked in class about finding the kth element, which is linear. But, none of this is (IMO) worth you’re spending a lot of time on. It’s not particularly relevant to the GA aspects of the project. So, if you do something other than system sort or priority queue, then please explain in your README.",
+        "ts": "1523835918.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> Important!! Do _not_ send you team repo via Slack. You _must_ submit it through Blackboard.",
+        "ts": "1523846075.000134"
+    }
+]

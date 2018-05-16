@@ -1,0 +1,35 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I had a question about the “warm-up” phase. Because of caching, JIT compilers (HotSpot to be precise), etc. you need to run your function, whatever that might be, several times before you start timing. Do it all in the same method. It’s really easy to do this. And rather important!!",
+        "ts": "1517845341.000016"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "If you are really interested in this (and I think you should be), please see: <https:\/\/stackoverflow.com\/questions\/504103\/how-do-i-write-a-correct-micro-benchmark-in-java>",
+        "attachments": [
+            {
+                "title": "How do I write a correct micro-benchmark in Java?",
+                "title_link": "https:\/\/stackoverflow.com\/questions\/504103\/how-do-i-write-a-correct-micro-benchmark-in-java",
+                "text": "How do you write (and run) a correct micro-benchmark in Java? I'm looking here for code samples and comments illustrating various things to think about. Example: Should the benchmark measure time\/",
+                "fallback": "How do I write a correct micro-benchmark in Java?",
+                "thumb_url": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/apple-touch-icon@2.png?v=73d79a89bded",
+                "from_url": "https:\/\/stackoverflow.com\/questions\/504103\/how-do-i-write-a-correct-micro-benchmark-in-java",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/img\/favicon.ico?v=4f32ecc8f43d",
+                "service_name": "stackoverflow.com",
+                "id": 1
+            }
+        ],
+        "ts": "1517845597.000704"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I may have mixed up _m_ and _n_ in the assignment. You know how this works. You keep doubling the _size_ of the problem to get the relationship of time to problem size. The other number is just the number of runs from which we get the average. ",
+        "ts": "1517890314.000053"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "<!channel> I’ve had a few questions about the project presentation. `There is no project presentation`  Truly, there are far too many teams for it to be practical. I wish there was time, but still you do have the opportunity to express your conclusions and experiences in your “report”. Many teams do create a presentation using powerpoint, keynote, prezi, whatever but it’s not required. Excellent reports can get bonus points, though (see Emily Strong’s report, for example).",
+        "ts": "1523620643.000358"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I was asked a question about logging in a direct channel. Basically, the question was “can I replace _log4j_ with `System.out.println`?” My answer: well, I suppose so, but _log4j_ is much more elegant--and doesn’t get in the way of your program. Still, it’s more important to get the GA working and then, perhaps later, change to use _log4j_.",
+        "ts": "1523621556.000321"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U8RFVCE7P> commented on <@U8SF2FJ0P>’s file <https:\/\/info6205-03-37196.slack.com\/files\/U8SF2FJ0P\/FA5RZA5KM\/projectreport.docx|ProjectReport.docx>: Bear in mind that Emily did the project alone and did an excellent job of covering all of the requirements. However, a many of the two-person teams did a much more presentation-oriented report and so I do expect more from two-person teams.",
+        "file": {
+            "id": "FA5RZA5KM",
+            "created": 1523563222,
+            "timestamp": 1523563222,
+            "name": "ProjectReport.docx",
+            "title": "ProjectReport.docx",
+            "mimetype": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "filetype": "docx",
+            "pretty_type": "Word Document",
+            "user": "U8SF2FJ0P",
+            "editable": false,
+            "size": 372876,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-FA5RZA5KM\/projectreport.docx?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-FA5RZA5KM\/download\/projectreport.docx?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SF2FJ0P\/FA5RZA5KM\/projectreport.docx",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-FA5RZA5KM-e2b806cbed",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "FcA58FRC2C",
+                "created": 1523563222,
+                "timestamp": 1523563222,
+                "user": "U8SF2FJ0P",
+                "is_intro": true,
+                "comment": "Here is my report from my genetic algorithm project from last semester to give you an idea of what they should look like"
+            }
+        },
+        "comment": {
+            "id": "FcA7C9197H",
+            "created": 1523622124,
+            "timestamp": 1523622124,
+            "user": "U8RFVCE7P",
+            "is_intro": false,
+            "comment": "Bear in mind that Emily did the project alone and did an excellent job of covering all of the requirements. However, a many of the two-person teams did a much more presentation-oriented report and so I do expect more from two-person teams."
+        },
+        "is_intro": false,
+        "ts": "1523622124.000412"
+    }
+]

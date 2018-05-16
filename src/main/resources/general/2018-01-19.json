@@ -1,0 +1,47 @@
+[
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "<!channel> My TA hours today from 1:30 to 5:30 pm at Library 2nd Floor high table near entrance",
+        "edited": {
+            "user": "U8QP67WJU",
+            "ts": "1516386368.000000"
+        },
+        "thread_ts": "1516380937.000822",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U8U59LM63",
+                "ts": "1516381052.000274"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1516380937.000822"
+    },
+    {
+        "type": "message",
+        "user": "U8U59LM63",
+        "text": "Thanks a lot~",
+        "thread_ts": "1516380937.000822",
+        "parent_user_id": "U8QP67WJU",
+        "ts": "1516381052.000274"
+    },
+    {
+        "type": "message",
+        "user": "U8ST6RKP0",
+        "text": "<@U8QP67WJU> are you still in the library?",
+        "ts": "1516398091.000241"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "@zhongu",
+        "ts": "1516398957.000391"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "TA hours tomorrow (Saturday) 3:30-6:00 pm",
+        "ts": "1516422313.000063"
+    }
+]

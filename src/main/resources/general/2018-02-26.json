@@ -1,0 +1,308 @@
+[
+    {
+        "text": "An event has been *added* to *`<#C8QRLFJ8H>`* by <@U8SF2FJ0P>.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1519664400^{date_short}|2018-02-26> :clock12: <!date^1519664400^{time}|12:00pm EST>-<!date^1519673400^{time}|2:30pm EST> :white_check_mark: 2 :x: 0",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Curry 1st Floor",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":hash: Add to channels",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1519657293.000703"
+    },
+    {
+        "text": "<@U8SF2FJ0P> has updated the details for this event.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageEditBroadcast|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1519664400^{date_short}|2018-02-26> :clock12: <!date^1519664400^{time}|12:00pm EST>-<!date^1519673400^{time}|2:30pm EST> :white_check_mark: 2 :x: 0",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Curry 1st Floor",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":hash: Add to channels",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1519664105.000713"
+    },
+    {
+        "text": "<@U8SF2FJ0P> has updated the location and details for this event.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageEditBroadcast|C8QRLFJ8H",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1519664400^{date_short}|2018-02-26> :clock12: <!date^1519664400^{time}|12:00pm EST>-<!date^1519673400^{time}|2:30pm EST> :white_check_mark: 2 :x: 0",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Curry 1st Floor red chairs outside CIE",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":hash: Add to channels",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1519664150.000622"
+    },
+    {
+        "text": ":wave: Heads up, *TA Hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "59b61ef8-2580-4ea0-9575-c74611577f75",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1519664292.000552"
+    },
+    {
+        "type": "message",
+        "user": "U8SV5GM0W",
+        "text": "Hi, do we have the answer to quiz 6? I didn’t find it in history files.",
+        "ts": "1519679650.000099"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8QP67WJU> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8QP67WJU\/F9EK4PC6M\/spring_2018_info6205_sec03_quiz_6_with_answers.pdf|Spring_2018_INFO6205_Sec03_Quiz_6_with_answers.pdf> and commented: without coding answer",
+        "file": {
+            "id": "F9EK4PC6M",
+            "created": 1519683708,
+            "timestamp": 1519683708,
+            "name": "Spring_2018_INFO6205_Sec03_Quiz_6_with_answers.pdf",
+            "title": "Spring_2018_INFO6205_Sec03_Quiz_6_with_answers.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U8QP67WJU",
+            "editable": false,
+            "size": 51418,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F9EK4PC6M\/spring_2018_info6205_sec03_quiz_6_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F9EK4PC6M\/download\/spring_2018_info6205_sec03_quiz_6_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F9EK4PC6M-2b13b4fe4c\/spring_2018_info6205_sec03_quiz_6_with_answers_thumb_pdf.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf_w": 909,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8QP67WJU\/F9EK4PC6M\/spring_2018_info6205_sec03_quiz_6_with_answers.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F9EK4PC6M-3d0200cc14",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc9F5Y2UHG",
+                "created": 1519683708,
+                "timestamp": 1519683708,
+                "user": "U8QP67WJU",
+                "is_intro": true,
+                "comment": "without coding answer"
+            }
+        },
+        "user": "U8QP67WJU",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "wen.xin1",
+        "bot_id": null,
+        "ts": "1519683709.000559"
+    },
+    {
+        "type": "message",
+        "user": "U8TGK2HS7",
+        "text": "What is the specific time of tomorrow‘s exam？",
+        "ts": "1519684511.000480"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "The times have not changed. It’s all on the class calendar",
+        "ts": "1519685255.000056"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Please bring some paper and something to write with to the exam tomorrow. The actual exam is on blackboard, but on at least one question, you will need to do a back-of-the-envelope calculation.",
+        "ts": "1519699340.000023"
+    }
+]

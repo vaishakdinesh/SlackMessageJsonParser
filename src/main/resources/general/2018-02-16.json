@@ -1,0 +1,136 @@
+[
+    {
+        "text": "An event has been *added* to *`<#C8QRLFJ8H>`* by <@U8QP67WJU>.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "eventMessageShareBroadcast",
+                "fallback": "TA hour",
+                "title": "TA hour",
+                "id": 1,
+                "color": "ffcc66",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1518805800^{date_short}|2018-02-16> :clock12: <!date^1518805800^{time}|1:30pm EST>-<!date^1518820200^{time}|5:30pm EST> :white_check_mark: 2 :x: 1",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: Library 2nd Floor",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "bbffcc20-395c-48a3-97ec-15cbb532ec80",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":x: Decline",
+                        "type": "button",
+                        "value": "bbffcc20-395c-48a3-97ec-15cbb532ec80",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": ":hash: Add to channels",
+                        "type": "button",
+                        "value": "bbffcc20-395c-48a3-97ec-15cbb532ec80",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "bbffcc20-395c-48a3-97ec-15cbb532ec80",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1518801801.000422"
+    },
+    {
+        "text": ":wave: Heads up, *TA hour* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "bbffcc20-395c-48a3-97ec-15cbb532ec80",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1518805677.000372"
+    },
+    {
+        "text": ":wave: Heads up, *Office hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDH8B",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "04240ce9-c2b9-4da4-8e64-60156663ba37",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1518805677.000520"
+    }
+]

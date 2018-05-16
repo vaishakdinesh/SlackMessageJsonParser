@@ -1,0 +1,448 @@
+[
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<!channel> I will have TA hours from 3-5 pm today. Will update the location here later. ",
+        "client_msg_id": "D9C50479-C842-48E4-B481-71AB2E610D48",
+        "ts": "1518019682.000779"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "Hi professor <@U8RFVCE7P> and TAs, I struggle figuring out the process of improvement to mergesort by eliminating the copy from a[] to aux[], can you explain a little more on this topic? Thank you.",
+        "ts": "1518024843.000235"
+    },
+    {
+        "type": "message",
+        "user": "U8TDKG10W",
+        "text": "same doubt about this topic...how can the switch a[] to aux[] helps to improve mergesort?",
+        "ts": "1518025299.000038"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "The improvement is with respect to the time that merge sort uses. The space complexity remains the same but the it saves a little time.",
+        "ts": "1518026290.000668"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "It is possible to eliminate the time (but not the space) taken to copy to the auxiliary array used for merging",
+        "ts": "1518026292.000234",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8RFVCE7P"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "yeah improvement for the constant from 6nlogn to 4nlogn, that part I understand, I am just wondering how the switching roles in the process help achieve this improvement.",
+        "ts": "1518026851.000561"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Yes, if you think about it, the _sort_ method in standard _mergeSort_ starts by copying the _a_ array to the _aux_ array. Then, the merge code essentially does the reverse: it copies from _aux_ to _a_. That’s inherently wasteful (of time).",
+        "ts": "1518029307.000186"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "we use two invocations of the sort method, one that takes its input from the given array and puts the sorted output in the auxiliary array; the other takes its input from the auxiliary array and puts the sorted output in the given array. With this approach, we  arrange the recursive calls such that it switches the roles of the input array and the auxiliary array at each level.",
+        "ts": "1518029469.000150"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8SEA6LPR> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F95KAFUER\/mergesort_using_aux.java|Mergesort using aux>",
+        "file": {
+            "id": "F95KAFUER",
+            "created": 1518029488,
+            "timestamp": 1518029488,
+            "name": "Mergesort_using_aux.java",
+            "title": "Mergesort using aux",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U8SEA6LPR",
+            "editable": true,
+            "size": 1354,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F95KAFUER\/mergesort_using_aux.java?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F95KAFUER\/download\/mergesort_using_aux.java?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F95KAFUER\/mergesort_using_aux.java",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F95KAFUER-9d4bc99574",
+            "edit_link": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F95KAFUER\/mergesort_using_aux.java\/edit",
+            "preview": "package random;\r\n\r\npublic class MergeSort {\r\n\t\r\n\tstatic boolean less(int v, int w){  return v<w;  }\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">package<\/span> <span class=\"cm-def\">random<\/span>;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">public<\/span> <span class=\"cm-keyword\">class<\/span> <span class=\"cm-def\">MergeSort<\/span> {<\/pre><\/div>\n<div><pre>\t<\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">static<\/span> <span class=\"cm-variable-3\">boolean<\/span> <span class=\"cm-variable\">less<\/span>(<span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">v<\/span>, <span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">w<\/span>){  <span class=\"cm-keyword\">return<\/span> <span class=\"cm-variable\">v<\/span><span class=\"cm-operator\">&lt;<\/span><span class=\"cm-variable\">w<\/span>;  }<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 47,
+            "lines_more": 42,
+            "preview_is_truncated": true,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8SEA6LPR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dinesh.v",
+        "bot_id": null,
+        "ts": "1518029489.000083"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "you could try it out. This code would exchange the roles. Try putting a debugger and seeing what actually happens when the roles switch. Its a bit tricky to wrap your head around it the first time but you will definitely understand !",
+        "ts": "1518029571.000497"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Thanks, <@U8SEA6LPR>",
+        "ts": "1518029646.000282",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U8SEA6LPR",
+                    "U8TGK2HS7"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I can’t emphasize enough how important it is to just _try_ _things_! That’s why we have a repository, with lots of code. We even have our benchmark class now.",
+        "ts": "1518029716.000434",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SEA6LPR"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "I totally agree. Things in concept may seen vague but when you get your hands dirty and observe what happens, the fog surrounding it clears up !",
+        "ts": "1518029787.000820",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U8RFVCE7P",
+                    "U8TALS83G"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8SEA6LPR> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F96BM2VP0\/quiz_2_with_answers.pdf|Quiz_2_with_answers.pdf>",
+        "file": {
+            "id": "F96BM2VP0",
+            "created": 1518029887,
+            "timestamp": 1518029887,
+            "name": "Quiz_2_with_answers.pdf",
+            "title": "Quiz_2_with_answers.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U8SEA6LPR",
+            "editable": false,
+            "size": 42301,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F96BM2VP0\/quiz_2_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F96BM2VP0\/download\/quiz_2_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F96BM2VP0-28683f911e\/quiz_2_with_answers_thumb_pdf.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf_w": 909,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F96BM2VP0\/quiz_2_with_answers.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F96BM2VP0-16f67f6b19",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1
+        },
+        "user": "U8SEA6LPR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dinesh.v",
+        "bot_id": null,
+        "ts": "1518029889.000335"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8SEA6LPR> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F96HL48BZ\/quiz_3_with_answers.pdf|Quiz_3_with_answers.pdf>",
+        "file": {
+            "id": "F96HL48BZ",
+            "created": 1518029891,
+            "timestamp": 1518029891,
+            "name": "Quiz_3_with_answers.pdf",
+            "title": "Quiz_3_with_answers.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U8SEA6LPR",
+            "editable": false,
+            "size": 37872,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F96HL48BZ\/quiz_3_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F96HL48BZ\/download\/quiz_3_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F96HL48BZ-ece3874997\/quiz_3_with_answers_thumb_pdf.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf_w": 909,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F96HL48BZ\/quiz_3_with_answers.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F96HL48BZ-b7a0d35aaf",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1
+        },
+        "user": "U8SEA6LPR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dinesh.v",
+        "bot_id": null,
+        "ts": "1518029892.000693"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8SEA6LPR> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F94S6J2SC\/quiz_4_with_answers.pdf|Quiz_4_with_answers.pdf>",
+        "file": {
+            "id": "F94S6J2SC",
+            "created": 1518029893,
+            "timestamp": 1518029893,
+            "name": "Quiz_4_with_answers.pdf",
+            "title": "Quiz_4_with_answers.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U8SEA6LPR",
+            "editable": false,
+            "size": 41244,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F94S6J2SC\/quiz_4_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F94S6J2SC\/download\/quiz_4_with_answers.pdf?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T8RCESJMQ-F94S6J2SC-ed0eb74523\/quiz_4_with_answers_thumb_pdf.png?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "thumb_pdf_w": 909,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F94S6J2SC\/quiz_4_with_answers.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F94S6J2SC-ac0777f92f",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1
+        },
+        "user": "U8SEA6LPR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dinesh.v",
+        "bot_id": null,
+        "ts": "1518029894.000496"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Sorry for the delay. Here are the quiz answers.",
+        "ts": "1518029938.000559"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8SEA6LPR> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F95FEFNBW\/quiz4.zip|quiz4.zip>",
+        "file": {
+            "id": "F95FEFNBW",
+            "created": 1518029962,
+            "timestamp": 1518029962,
+            "name": "quiz4.zip",
+            "title": "quiz4.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U8SEA6LPR",
+            "editable": false,
+            "size": 17939,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F95FEFNBW\/quiz4.zip?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F95FEFNBW\/download\/quiz4.zip?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F95FEFNBW\/quiz4.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F95FEFNBW-ccdd18e903",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8SEA6LPR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dinesh.v",
+        "bot_id": null,
+        "ts": "1518029962.000721"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8SEA6LPR> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F96BN0D1U\/quiz2.zip|quiz2.zip>",
+        "file": {
+            "id": "F96BN0D1U",
+            "created": 1518029963,
+            "timestamp": 1518029963,
+            "name": "quiz2.zip",
+            "title": "quiz2.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U8SEA6LPR",
+            "editable": false,
+            "size": 5479,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F96BN0D1U\/quiz2.zip?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F96BN0D1U\/download\/quiz2.zip?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F96BN0D1U\/quiz2.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F96BN0D1U-25e87a28f6",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8SEA6LPR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dinesh.v",
+        "bot_id": null,
+        "ts": "1518029964.000238"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8SEA6LPR> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F94S7E3JL\/quiz3.zip|quiz3.zip>",
+        "file": {
+            "id": "F94S7E3JL",
+            "created": 1518029965,
+            "timestamp": 1518029965,
+            "name": "quiz3.zip",
+            "title": "quiz3.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U8SEA6LPR",
+            "editable": false,
+            "size": 9740,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F94S7E3JL\/quiz3.zip?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F94S7E3JL\/download\/quiz3.zip?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8SEA6LPR\/F94S7E3JL\/quiz3.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F94S7E3JL-98084eb2bc",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8SEA6LPR",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dinesh.v",
+        "bot_id": null,
+        "ts": "1518029965.000844"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "The coding questions.",
+        "ts": "1518029975.000832"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "thank you professor <@U8RFVCE7P>  and TA <@U8SEA6LPR>  , I think now I have a better grasp of this.\n\nFor those facing similar confusion, I use these approaches to help understand switching roles\n1) think in a bottom-up approach to start off\n2) number the parameters in sort() and merge() to avoid confusion imposed by parameters’ name",
+        "client_msg_id": "025353DF-5A91-4CA3-99F1-B670413238FC",
+        "ts": "1518030033.000593"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Each of these are a java project. Excluding quiz 2, you will see a package named `solutions`. As the names states, the solution contains AN answer. The other package contains the code with the \"TODOs\" as you saw in the quiz.",
+        "ts": "1518030087.000321"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "There are unit tests too in the first package.",
+        "ts": "1518030118.000579"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Hi. Just trying to get a table. Seems curry is occupied. I’ll let you all know in a few minutes. ",
+        "client_msg_id": "3E08B1B5-FEA8-40D5-AEFF-17270F6EBAFF",
+        "ts": "1518034089.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "<!channel> I found a spot in curry. The red couches near the elevator",
+        "ts": "1518034584.000087"
+    }
+]

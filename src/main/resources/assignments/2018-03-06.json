@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Question: Hi Prof, I did not understand what you meant by two schemes cut off and number of threads? (in the assignment 4)",
+        "ts": "1520364704.000483"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Answer: there are two ways (actually, at least three) to determine when to stop partitioning\/parallelizing. One is to do our normal trick: when the number of elements to sort is sufficiently small, we stop partitioning. That’s like in regular Mergesort we have a cutoff which uses Insertionsort. But here, we have at least two other possibilities:(1) the number of threads:",
+        "ts": "1520364859.000524"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "when we’ve maxed out on available threads, we might consider not partitioning any more because whatever we sort will have to wait for a thread to finish anyway and so won’t be sorted in parallel.",
+        "ts": "1520364922.000612"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "(2) another cutoff number--a much bigger value presumably than the cutoff for insertion sort. Once we get an array of that size or smaller, we don’t bother to partition\/parallelize it.",
+        "ts": "1520364978.000009"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Does that make sense now?",
+        "ts": "1520364982.000207"
+    },
+    {
+        "type": "message",
+        "user": "U8SK3QRPG",
+        "text": "Yes, how do we determine max available threads?",
+        "ts": "1520366500.000610"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "You can use a constant number or you can try to get it from the execution context. Your choice.",
+        "ts": "1520366567.000671"
+    },
+    {
+        "type": "message",
+        "user": "U8SK3QRPG",
+        "text": "ok",
+        "ts": "1520366711.000170"
+    }
+]

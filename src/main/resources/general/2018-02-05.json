@@ -1,0 +1,49 @@
+[
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "TA hours today 12:30 - 2:30. I will update with the location soon",
+        "ts": "1517849340.000647"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "TA hours now until 2:30. I have a table near the wooden stairs on Curry 1st floor",
+        "ts": "1517851657.000506"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "Tomorrow's quiz will not include mergesort. It only covers the simple sorts (selection, insertion, shell)",
+        "ts": "1517854416.000575",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SSHL61M",
+                    "U8UER1V4M",
+                    "U8SGQQYA0"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "One slight problem with Slack is that I sometimes see that there was a new message (like in “All Threads”) but I couldn’t see which one. If ever someone feels I am ignoring them, it’s OK to ask again.",
+        "ts": "1517870408.000156"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "When there is unread message, slack will have a category named “unread”, and list all channels that have unread message, and it will disappear after you viewed all messages.",
+        "ts": "1517870642.000373"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "But some times, Slack could mistakenly show there is unread message, while actual not",
+        "ts": "1517870689.000514"
+    }
+]

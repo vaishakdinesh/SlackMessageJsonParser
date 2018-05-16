@@ -1,0 +1,119 @@
+[
+    {
+        "text": "<@U8SEA6LPR> has updated the location for this event.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageEditBroadcast",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1522256400^{date_short}|2018-03-28>, <!date^1522256400^{time}|1:00pm EST>-<!date^1522263600^{time}|3:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Curry student center, 1st floor down the wooden steps near the TVs_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *3* interested",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522256199.000671"
+    },
+    {
+        "text": ":wave: Heads up, *TA Hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "790d4a6d-4f0b-492c-98e2-fb998e7d3b09",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1522256274.000098"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "An event is going to happen at the place I'm Sitting.  I will update the location when i get a new place.",
+        "ts": "1522256675.000346"
+    },
+    {
+        "type": "message",
+        "user": "U8SEA6LPR",
+        "text": "Sitting Curry student center, 1st floor above the cafeteria. opposite to the elevator area.",
+        "ts": "1522256854.000403"
+    }
+]

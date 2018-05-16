@@ -1,0 +1,62 @@
+[
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "TA hours 12:30-2:30 PM today. I'll update here with the location later",
+        "client_msg_id": "38419f9c-64bb-4ca5-9aa1-ab67a591d3c2",
+        "ts": "1518453119.000337"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "I have a table on the first floor in Curry. Here until 2:30",
+        "client_msg_id": "d7e94e1d-345f-4586-ab6f-2c9e7c06d825",
+        "ts": "1518457046.000361"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "If you are looking to get more practice with the material to help you study for quizzes, the textbook website is a great resource: <https:\/\/algs4.cs.princeton.edu\/home\/> If you go to chapter &gt; section, each section page has solutions to some of the exercises and creative problems given at the end of that section in the book.",
+        "attachments": [
+            {
+                "title": " Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne",
+                "title_link": "https:\/\/algs4.cs.princeton.edu\/home\/",
+                "text": "The textbook Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne surveys the most important algorithms and data structures in use today. The broad perspective taken makes it an appropriate introduction to the field.",
+                "fallback": " Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne",
+                "from_url": "https:\/\/algs4.cs.princeton.edu\/home\/",
+                "service_icon": "https:\/\/algs4.cs.princeton.edu\/apple-touch-icon.png",
+                "service_name": "algs4.cs.princeton.edu",
+                "id": 1
+            }
+        ],
+        "ts": "1518459666.000302",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SSHL61M",
+                    "U8RFVCE7P"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "what will be syllabus of tomorrow's quiz?",
+        "ts": "1518460638.000666"
+    },
+    {
+        "type": "message",
+        "user": "U8SF2FJ0P",
+        "text": "The quiz will be on mergesort and the quicksort material that was covered last week (we stopped at \"Duplicate Keys\" in the slides)",
+        "ts": "1518460699.000518"
+    },
+    {
+        "type": "message",
+        "user": "U8SSHL61M",
+        "text": "ok thanks.:slightly_smiling_face:",
+        "ts": "1518464418.000242"
+    }
+]

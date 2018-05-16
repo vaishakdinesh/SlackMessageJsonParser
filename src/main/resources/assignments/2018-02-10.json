@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Assignment 3 always required you to test random array and (partially) sorted array. Either one (sorted vs. partially sorted) is OK. If you do any more than that, it’s good for bonus points.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1518281651.000000"
+        },
+        "ts": "1518281580.000005"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "Hi Professor and TA, before each iteration of the for loop in run, we should re-arrange the array to be sorted,right? Otherwise, we are just sorting a already-sorted array. But inside the run method, I can not access the array to be sorted, so I am wondering how to solve this properly.",
+        "ts": "1518305283.000003"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Create the raw array(s) in the main program and make them static.  Just before each run you will have to copy from the source into a private array inside the run function",
+        "ts": "1518305679.000075"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "then the xs[] in BenchmarSort() is useless,right?",
+        "ts": "1518306566.000012"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I try to give you clues, hints, and some stubs\/skeleton code. But I can’t do everything for you otherwise there’d be no assignment. It’s really up to you how you implement it, provided that you satisfy the requirements.",
+        "ts": "1518306872.000007"
+    },
+    {
+        "type": "message",
+        "user": "U8RRE461X",
+        "text": "got it, thank you for your help professor",
+        "ts": "1518309326.000046"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "No office hours after class tomorrow",
+        "ts": "1519859811.000413"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Here are the answers to the Mid-term questions:",
+        "ts": "1519880367.000072"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q1: A linked list is ideally suited to implementing a stack.",
+        "ts": "1519880759.000006"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "A doubly-linked list is _not_ used to implement a queue: we use two linked lists for that.",
+        "ts": "1519880777.000223"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "A bag could also be implemented by an array",
+        "ts": "1519880797.000179"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q2: n^0: constant, lg n: logarithmic, n: linear, n lg n: linearithmic, n^2: quadratic.",
+        "ts": "1519880871.000083"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q3: 3",
+        "ts": "1519880885.000160"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q5: false: the question specifically said that sort was based on the _key_ (not the _value_) so, with a stable sort like merge sort, the original order of all of the “A” cases should remain as it was.",
+        "ts": "1519880947.000139"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q6: quick-find: n, quick-union: between lg n and n; weighted QU: lg n; WQUPC: 1",
+        "ts": "1519881011.000109"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q7 is thrown out. But the idea was that either the priority queue or the linear scan would be the most efficient. A PQ of capacity 1 is equivalent to doing a linear scan.",
+        "ts": "1519881057.000166",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8UER1V4M"
+                ],
+                "count": 1
+            },
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U8UER1V4M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q8: A: insertion, B: selection, C: merge, :anguished: quick",
+        "ts": "1519881103.000040"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Q9: has no perfect answer. I was mainly looking for an understanding of the issues. Many students simply reiterated the properties of the three sorts mentioned. That generally earned 0.5--unless you got something wrong in which case 0. The answer that I gave for Q5 (which I think I can improve on a bit) is: `Sub-quadratic performance requires some sort of divide-and-conquer approach. This breaks up the array into smaller pieces that are sorted independently. This in turn implies that we cannot guarantee that elements with equal keys will remain in the same place relative to each other -- unless we assign an auxiliary array to maintain that order.` I would probably have given myself about a 6 or 7. One student got 8 if I recall correctly.",
+        "ts": "1519881365.000082"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Here is the best answer from a student (I won’t name, but if you’d like to claim it, go ahead):",
+        "ts": "1519881665.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "1. To make sure of sub-quadratic time, we can not move the  element only one step(here “one step” means to pass through only its own neighbor) for a single movement like we did in insertion sort (because this will cause quadratic time) so  we need either an extra memory for auxiliary array to keep the data that we will “put at the target place” like we did in merge sort(which is not in-place) or to swap the element as we did in quick sort which can not keep the stability.\n2. To make the algorithm stable, we need to either move the element one step after another towards its target location as we did in insertion sort which will result in quadratic time or to make an auxiliary memory to keep the data we would like to put at the target place like we did in merge sort which is for sure not in-place.\n3. To make the algorithm in place, either do we need to move the element one step at a time to keep the stability( but it will result in quadratic time) or we can swap it to its target location directly to get sub-quadratic time which will make the algorithm unstable.",
+        "edited": {
+            "user": "U8RFVCE7P",
+            "ts": "1519881721.000000"
+        },
+        "ts": "1519881691.000226"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Average score for Q9 was 2.",
+        "ts": "1519882048.000144"
+    }
+]

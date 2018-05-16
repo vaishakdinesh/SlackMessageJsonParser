@@ -1,0 +1,200 @@
+[
+    {
+        "text": ":wave: Here are the events in *`<#C8QRLFJ8H>`* for the next two weeks:",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageDigest",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1521475200^{date_short}|2018-03-19>, <!date^1521475200^{time}|12:00pm EST>-<!date^1521482400^{time}|2:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Argo Tea in Snell_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *1* interested, *1* declined",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            },
+            {
+                "fallback": "<https:\/\/medium.com\/eventbot\/new-global-date-time-format-be64959957f8?source=rss----c3b2e951ffd1---4|Eventbot blog: New: Global date &amp; time format>",
+                "text": "<https:\/\/medium.com\/eventbot\/new-global-date-time-format-be64959957f8?source=rss----c3b2e951ffd1---4|Eventbot blog: New: Global date &amp; time format>",
+                "id": 2,
+                "color": "0099ff"
+            },
+            {
+                "callback_id": "eventMessageDigest",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 3,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "5",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "primary"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521468121.000306"
+    },
+    {
+        "text": "<@U8SF2FJ0P> has updated the location for this event.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "eventMessageEditBroadcast",
+                "fallback": "TA Hours",
+                "title": "TA Hours",
+                "id": 1,
+                "color": "facb65",
+                "fields": [
+                    {
+                        "title": "",
+                        "value": ":spiral_calendar_pad: <!date^1521475200^{date_short}|2018-03-19>, <!date^1521475200^{time}|12:00pm EST>-<!date^1521482400^{time}|2:00pm EST> ",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":round_pushpin: _Argo Tea in Snell_",
+                        "short": false
+                    },
+                    {
+                        "title": "",
+                        "value": ":busts_in_silhouette: *2* interested, *1* declined",
+                        "short": false
+                    }
+                ],
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "eventStar",
+                        "text": ":white_check_mark: I'm interested",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": "primary"
+                    },
+                    {
+                        "id": "2",
+                        "name": "declineButton",
+                        "text": ":no_entry: Decline",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": ""
+                    },
+                    {
+                        "id": "3",
+                        "name": "eventShare",
+                        "text": "Invite",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": ""
+                    },
+                    {
+                        "id": "4",
+                        "name": "showMoreDetailsButton",
+                        "text": "Show me details",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": ""
+                    }
+                ],
+                "mrkdwn_in": [
+                    "fields"
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521474401.000769"
+    },
+    {
+        "text": ":wave: Heads up, *TA Hours* is about to start.",
+        "username": "Eventbot",
+        "bot_id": "B996BDK19",
+        "attachments": [
+            {
+                "callback_id": "publicChannelReminder",
+                "fallback": "Please use *\/events add* to create a new event.",
+                "id": 1,
+                "color": "2e9059",
+                "actions": [
+                    {
+                        "id": "1",
+                        "name": "showMoreDetailsButton",
+                        "text": ":page_with_curl: Show me details :arrow_heading_down:",
+                        "type": "button",
+                        "value": "7a8a0aa6-1b56-46f1-8339-cb04208c7316",
+                        "style": ""
+                    },
+                    {
+                        "id": "2",
+                        "name": "createEvent",
+                        "text": ":spiral_calendar_pad: Create event",
+                        "type": "button",
+                        "value": "C8QRLFJ8H",
+                        "style": "default"
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1521475025.000006"
+    }
+]

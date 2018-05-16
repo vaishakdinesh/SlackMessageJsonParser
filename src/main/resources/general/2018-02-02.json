@@ -1,0 +1,86 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "It appears that Blackboard has lost this semester’s classes. Temporarily, I hope!!",
+        "ts": "1517584754.000713",
+        "reactions": [
+            {
+                "name": "sweat",
+                "users": [
+                    "U8SEA6LPR"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U8RFVCE7P> uploaded a file: <https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F930CCDUL\/-.txt|Untitled>",
+        "file": {
+            "id": "F930CCDUL",
+            "created": 1517585684,
+            "timestamp": 1517585684,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U8RFVCE7P",
+            "editable": true,
+            "size": 347,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F930CCDUL\/-.txt?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8RCESJMQ-F930CCDUL\/download\/-.txt?t=xoxe-297422902738-350782568738-350919557621-846260e7fdf25d28d6da98102605ccae",
+            "permalink": "https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F930CCDUL\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T8RCESJMQ-F930CCDUL-61e20d3b3b",
+            "edit_link": "https:\/\/info6205-03-37196.slack.com\/files\/U8RFVCE7P\/F930CCDUL\/-.txt\/edit",
+            "preview": "Access to Spring 2018 Courses \r\nAccess to Spring 2018 courses is currently unavailable for faculty, staff, and students. This has been escalated as a top priority to Blackboard and is being worked on currently. All coursework and data are preserved. Access to Spring 2018 courses will be restored as soon as possible. Thank you for your patience. ",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>Access to Spring 2018 Courses <\/pre><\/div>\n<div><pre>Access to Spring 2018 courses is currently unavailable for faculty, staff, and students. This has been escalated as a top priority to Blackboard and is being worked on currently. All coursework and data are preserved. Access to Spring 2018 courses will be restored as soon as possible. Thank you for your patience. <\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U8RFVCE7P",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "scalaprof",
+        "bot_id": null,
+        "ts": "1517585685.000464"
+    },
+    {
+        "type": "message",
+        "user": "U8QP67WJU",
+        "text": "TA hours today from now to 3 pm, @ Library 2nd Floor near entrance",
+        "ts": "1517595591.000032"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "My apologies! There is nothing wrong with the Java implementation in 22Mergesort (#11). Until I get new glasses, there is a possibility of this happening. I saw the `i++` as `j++` and I knew that wasn’t right. BUT, I was not happy with the amount of chatter that followed. What you may not realize is that these auditoriums focus the sound from the seats down near where I stand. It is very distracting, not to mention that I have to shout to overcome it. Please let’s behave a little more considerately next time. Go Pats!",
+        "ts": "1517612541.000026",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8SR5FGF9",
+                    "U8UM725V5",
+                    "U8UER1V4M",
+                    "U8XSCKW8P"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

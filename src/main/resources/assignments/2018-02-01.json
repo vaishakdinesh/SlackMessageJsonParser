@@ -1,0 +1,20 @@
+[
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "Assignment 3 is posted and the sources that you need are ready in the repo. Please see packages `sort\/simple` and `util`  There are three TODOs to implement and then you will need to run the experiments and report on them.",
+        "ts": "1517523339.000456"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "I have “fixed” the issue that we had in the random walk assignment (Assignment 1). The problem was that we were testing a method (_move_) that should really have been private (because it isn’t part of the API) but was declared public just so that I could run unit tests on it. I thought there was a way to do it with JUnit (but I think I’m mixing it up with Scala test). So, I have created my own private method tester. All of these updates are in the repo now. You can find the private method tester (and its test class) in the _util_ package of the _test_ sources. I hope you will find it interesting (it has to use reflection).",
+        "ts": "1517527464.000425"
+    },
+    {
+        "type": "message",
+        "user": "U8RFVCE7P",
+        "text": "My apologies. I “posted” Assignment 3 at 3:30. But the way Blackboard works is very confusing.  There are two independent check boxes: one to make it available and one to delay availability. Both have to be checked! Very poor design: why would you ever want to set a date for availability if you never wanted it to be available (which is what I did)??",
+        "ts": "1517542191.000170"
+    }
+]
